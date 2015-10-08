@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="WindowsFormsApplication2.Calc.AnswerGet">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAIAAAAAAAAAAEAIAEAAAAAAAgAAAAAAgAAAAA=</HashCode>
+      <FileName>Calc\AnswerGet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication2.Calc.CheckAnswer">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAQAACAABgACABAEAAAAAAAAAAAAAAAAAIEIAAA=</HashCode>
+      <FileName>Calc\CheckAnswer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication2.Calc.ExpTree">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAQAAAAICAAMAAEgQAAQAAAEAAgAAAAAiAAADA=</HashCode>
+      <FileName>Calc\ExpTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication2.Calc.Node">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAEAAAAAAAAAAACACgAAAAAAA=</HashCode>
+      <FileName>Calc\ExpTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication2.Calc.Fraction">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAIAAAAAAAAAEYAWAgkAAAAAAAAAAAAIABAAQAAA=</HashCode>
+      <FileName>Calc\Fraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication2.Calc.GenerateExp">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAgAAAAAAAIAACAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Calc\GenerateExp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Configure">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAAAIAAAAAAAAAAAIACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calc\Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication2.MyException.OwnDivException">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyException\OwnDivException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication2.MyException.OwnException">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyException\OwnException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication2.MyException.TooManyException">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyException\TooManyException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Core.CoreMode" Collapsed="true">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAIAAAAAEAA=</HashCode>
+      <FileName>Calc\Core.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

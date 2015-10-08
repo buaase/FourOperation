@@ -21,6 +21,12 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+.vs/
+_NCrunch_*/
+CoreTests/
+TestResults/
+*.v2.ncrunchsolution
+*.ncrunchsolution.user
 
 # Visual Studo 2015 cache/options directory
 .vs/
