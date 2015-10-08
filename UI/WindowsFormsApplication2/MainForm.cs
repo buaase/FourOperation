@@ -14,12 +14,11 @@ namespace WindowsFormsApplication2
     {
         Thread td;
         //默认的检查结果文件路径
-        //回调函数
-        private delegate void InvokeCallback();
+
+        public delegate void InvokeCall();
 
         public MainForm()
         {
-        //    Control.CheckForIllegalCrossThreadCalls = false;
             InitialXmlFile();
             InitializeComponent();
         }
@@ -93,11 +92,9 @@ namespace WindowsFormsApplication2
             }
             finally
             {
-                //这里注意一开始的允许跨线程操纵UI
-                //new 
-                InvokeCallback call = new InvokeCallback(UpdateProgressBar);
-                //begin
-                BeginInvoke(call);
+                InvokeCall a = new InvokeCall(UpdateProgressBar);
+                BeginInvoke(a);
+
             }
         }
 
