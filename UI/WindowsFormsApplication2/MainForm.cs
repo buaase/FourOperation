@@ -7,6 +7,7 @@ using CCWin;
 using WindowsFormsApplication2.Calc;
 using System.Xml;
 using Core;
+using System.Text.RegularExpressions;
 
 namespace WindowsFormsApplication2
 {
@@ -19,7 +20,22 @@ namespace WindowsFormsApplication2
 
         public MainForm()
         {
-            InitialXmlFile();
+            //如果两个文件同时存在，代表已经使用过一次。
+            if(File.Exists("remember.xml") &&　File.Exists("configure.xml"))
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.Load("remember.xml");
+                XmlElement rootElem = doc.DocumentElement;
+                if(rootElem.InnerText=="No")
+                    InitialXmlFile();
+            }
+            //如果两个文件缺少一个，不管是缺少remember还是configure，都属于第一次使用。
+            else
+            {
+                InitialXmlFile();
+                if (File.Exists("remember.xml"))
+                    File.Delete("remember.xml");
+            }
             InitializeComponent();
         }
 
@@ -138,50 +154,50 @@ namespace WindowsFormsApplication2
 
                 //左括号
                 if (e.KeyCode == Keys.D9 & e.Shift)
-                    calcButtonLBrack_Click(null, null);
+                    ButtonBindings(calcButtonLBrack, null);
                 //右括号
                 else if (e.KeyCode == Keys.D0 & e.Shift)
-                    calcButtonRBrack_Click(null, null);
+                    ButtonBindings(calcButtonRBrack, null);
                 //组合键 加法
                 else if (e.KeyCode == Keys.Oemplus & e.Shift)
-                    calcButtonAdd_Click(null, null);
+                    ButtonBindings(calcButtonAdd, null);
                 //减法
                 else if (e.KeyCode == Keys.OemMinus)
-                    calcButtonSub_Click(null, null);
+                    ButtonBindings(calcButtonSub, null);
                 //组合键 乘法
                 else if (e.KeyCode == Keys.D8 & e.Shift)
-                    calcButtonMult_Click(null, null);
+                    ButtonBindings(calcButtonMult, null);
                 //自定义组合键 OemQuestion + shift = /
                 else if (e.KeyCode == Keys.OemQuestion & e.Shift)
-                    calcButtonDiv_Click(null, null);
+                    ButtonBindings(calcButtonDiv, null);
                 //OemQuotes 对应的是键盘上的 单引号键
                 else if (e.KeyCode == Keys.OemQuotes & e.Shift)
-                    calcButtonQuote_Click(null, null);
+                    ButtonBindings(calcButtonQuote, null);
                 //对应? 即 非shift下的/
                 else if (e.KeyCode == Keys.OemQuestion)
-                    calcButtonQuestion_Click(null, null);
+                    ButtonBindings(calcButtonQuestion, null);
                 else if (e.KeyCode == Keys.D0)
-                    calcButton0_Click(null, null);
+                    ButtonBindings(calcButton0, null);
                 else if (e.KeyCode == Keys.D1)
-                    calcButton1_Click(null, null);
+                    ButtonBindings(calcButton1, null);
                 else if (e.KeyCode == Keys.D2)
-                    calcButton2_Click(null, null);
+                    ButtonBindings(calcButton2, null);
                 else if (e.KeyCode == Keys.D3)
-                    calcButton3_Click(null, null);
+                    ButtonBindings(calcButton3, null);
                 else if (e.KeyCode == Keys.D4)
-                    calcButton4_Click(null, null);
+                    ButtonBindings(calcButton4, null);
                 else if (e.KeyCode == Keys.D5)
-                    calcButton5_Click(null, null);
+                    ButtonBindings(calcButton5, null);
                 else if (e.KeyCode == Keys.D6)
-                    calcButton6_Click(null, null);
+                    ButtonBindings(calcButton6, null);
                 else if (e.KeyCode == Keys.D7)
-                    calcButton7_Click(null, null);
+                    ButtonBindings(calcButton7, null);
                 else if (e.KeyCode == Keys.D8)
-                    calcButton8_Click(null, null);
+                    ButtonBindings(calcButton8, null);
                 else if (e.KeyCode == Keys.D9)
-                    calcButton9_Click(null, null);
+                    ButtonBindings(calcButton9, null);
                 else if (e.KeyCode == Keys.Delete)
-                    calcButtonClean_Click(null, null);
+                    ButtonBindings(calcButtonClean, null);
                 else if (e.KeyCode == Keys.Back)
                     calcButtonDelete_Click(null, null);
                 else if (e.KeyCode == Keys.Enter)
@@ -192,60 +208,6 @@ namespace WindowsFormsApplication2
 
         }
 
-        private void calcButton0_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "0";
-        }
-
-        private void calcButton1_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "1";
-        }
-
-        private void calcButton2_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "2";
-        }
-
-        private void calcButton3_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "3";
-        }
-
-        private void calcButton4_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "4";
-        }
-
-        private void calcButton5_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "5";
-        }
-
-        private void calcButton6_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "6";
-        }
-
-        private void calcButton7_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "7";
-        }
-        private void calcButton8_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "8";
-        }
-
-        private void calcButton9_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "9";
-        }
-
-        private void calcButtonClean_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text = "";
-        }
-
         private void calcButtonDelete_Click(object sender, EventArgs e)
         {
             //这个键是后退键——用于删除一个刚刚出错的字符
@@ -253,7 +215,7 @@ namespace WindowsFormsApplication2
             char[] Temp = text.ToCharArray();
             text = "";
             //当前TextBox里的内容转换为一个char数组，剔除最后一个字符，并重新赋值到该textbox中
-            for(int i=0;i<Temp.Count()-1;i++)
+            for (int i = 0; i < Temp.Count() - 1; i++)
             {
                 text += Temp[i];
             }
@@ -272,8 +234,9 @@ namespace WindowsFormsApplication2
             {
                 Configure con = new Configure(CoreMode.CalcuateMode);
                 Content = con.Calc(calcTextBox.Text + "=");
+                lastCalcBox.Text = calcTextBox.Text + " =";
             }
-            catch(MyException.OwnException e1)
+            catch (MyException.OwnException e1)
             {
                 ErrorForm form = new ErrorForm(e1.Message);
                 form.ShowDialog();
@@ -285,55 +248,30 @@ namespace WindowsFormsApplication2
         }
         #endregion()
 
-        private void calcButtonDiv_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "÷";
-        }
 
-        private void calcButtonMult_Click(object sender, EventArgs e)
+        private void ButtonBindings(object sender,EventArgs e)
         {
-            calcTextBox.Text += "×";
-        }
-
-        private void calcButtonAdd_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "+";
-        }
-
-        private void calcButtonSub_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "-";
-        }
-
-        private void calcButtonQuestion_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "/";
-        }
-
-        private void calcButtonQuote_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "'";
-        }
-
-        private void calcButtonLBrack_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += "(";
-        }
-
-        private void calcButtonRBrack_Click(object sender, EventArgs e)
-        {
-            calcTextBox.Text += ")";
+            switch(((Button)sender).Name)
+            {
+                case "calcButtonRBrack":calcTextBox.Text += ")"; break;
+                case "calcButtonLBrack":calcTextBox.Text += "("; break;
+                case "calcButtonQuote": calcTextBox.Text += "'"; break;
+                case "calcButtonQuestion": calcTextBox.Text += "/"; break;
+                case "calcButtonSub":calcTextBox.Text += "-"; break;
+                case "calcButtonAdd":calcTextBox.Text += "+"; break;
+                case "calcButtonMult":calcTextBox.Text += "×"; break;
+                case "calcButtonDiv":calcTextBox.Text += "÷"; break;
+                case "calcButtonClean":calcTextBox.Text = ""; break;
+                default:
+                    Regex pattern = new Regex("calcButton(?<index>\\d)");
+                    Match m = pattern.Match(((Button)sender).Name);
+                    if (m.Success)
+                        calcTextBox.Text += m.Groups["index"];
+                    break;
+            }
         }
         #endregion
-
-
-        //控制值域范围的右侧的最小值 比 左侧至少大1
-        private void leftRange_ValueChanged(object sender, EventArgs e)
-        {
-            rightRange.Minimum = leftRange.Value + 1;
-            ChangeXml("//Range//leftRange", leftRange.Value.ToString());
-        }
-
+        
         #region(检查器核心调用处)
         //这个按钮按下时，将触发检查事件，要根据AnswerText和ExeText获取文件路径
         private void skinButton1_Click_1(object sender, EventArgs e)
@@ -402,7 +340,7 @@ namespace WindowsFormsApplication2
         private void 更改Gradetxt生成路径ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //加载指定的xml文件
-            string Gradepath="Grade.txt";
+            string Gradepath = "Grade.txt";
             DialogResult result = GradeFolderDialog.ShowDialog();
             if ((result == DialogResult.OK) || (result == DialogResult.Yes))
             {
@@ -420,7 +358,7 @@ namespace WindowsFormsApplication2
             if ((result == DialogResult.OK) || (result == DialogResult.Yes))
             {
                 Exepath = GradeFolderDialog.SelectedPath + "\\Exercise.txt";
-                ChangeXml("//Path//Exe",Exepath);
+                ChangeXml("//Path//Exe", Exepath);
                 ExeAnsTextBox.Text += "更改Exercise.txt到路径" + Exepath;
                 ExeAnsTextBox.Text += Environment.NewLine;
             }
@@ -438,7 +376,7 @@ namespace WindowsFormsApplication2
                 ExeAnsTextBox.Text += Environment.NewLine;
             }
         }
-        
+
         //改变xml配置文件
         public string ChangeXml(string name, string NewValue)
         {
@@ -462,60 +400,42 @@ namespace WindowsFormsApplication2
             XmlElement Exepath = (XmlElement)node;
             return Exepath.InnerText;
         }
-
-
-        private void HasBrackCheck_CheckedChanged(object sender, EventArgs e)
-        {
-            if (HasBrackCheck.CheckState == CheckState.Checked)
-                ChangeXml("//Option//BrackOp", "true");
-            else
-                ChangeXml("//Option//BrackOp", "false");
-        }
-
-        private void HasMultDivCheck_CheckedChanged(object sender, EventArgs e)
-        {
-            if (HasMultDivCheck.CheckState == CheckState.Checked)
-                ChangeXml("//Option//MultDivOp", "true");
-            else
-                ChangeXml("//Option//MultDivOp", "false");
-        }
-
-        private void HasFracCheck_CheckedChanged(object sender, EventArgs e)
-        {
-            if (HasFracCheck.CheckState == CheckState.Checked)
-                ChangeXml("//Option//FracOp", "true");
-            else
-                ChangeXml("//Option//FracOp", "false");
-        }
-
-        private void HasNegCheck_CheckedChanged(object sender, EventArgs e)
-        {
-            if (HasNegCheck.CheckState == CheckState.Checked)
-                ChangeXml("//Option//NegOp", "true");
-            else
-                ChangeXml("//Option//NegOp", "false");
-        }
-
-        private void OpCountList_ValueChanged(object sender, EventArgs e)
-        {
-            ChangeXml("//Count//OpCount", OpCountList.Value.ToString());
-        }
-
-        private void ExeCountList_ValueChanged(object sender, EventArgs e)
-        {
-            ChangeXml("//Count//NumCount", ExeCountList.Value.ToString());
-        }
-
-        private void rightRange_ValueChanged(object sender, EventArgs e)
-        {
-
-            ChangeXml("//Range//rightRange", rightRange.Value.ToString());
-        }
-
+        
         private void 帮助ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Helper help = new Helper();
             help.ShowDialog();
+        }
+
+        //窗体关闭前询问是否需要自动导入上一次的配置文件
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //remember.xml
+            //负责记录上一次的配置
+            if (!File.Exists("remember.xml"))
+            {
+                RememberMe tips = new RememberMe();
+                tips.ShowDialog();
+            }
+        }
+
+        //如果不是第一次启动，需要手动去配置是否自动导入配置
+        private void 导入配置设置ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RememberMe tips = new RememberMe();
+            tips.ShowDialog();
+        }
+
+        private void 设置配置ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            ConfigureForm conf = new ConfigureForm();
+            conf.ShowDialog();
+        }
+
+        private void skinButton2_Click(object sender, EventArgs e)
+        {
+            td.Abort();
         }
     }
 }
