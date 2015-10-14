@@ -117,165 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="YesRadioButton.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="NoRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 18</value>
-  </data>
-  <data name="&gt;&gt;skinLabel1.Name" xml:space="preserve">
-    <value>skinLabel1</value>
-  </data>
-  <data name="ConfirmButton.Text" xml:space="preserve">
-    <value>确认</value>
-  </data>
   <data name="skinLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 75</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NoRadioButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ConfirmButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 43</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>373, 64</value>
-  </data>
-  <data name="&gt;&gt;skinLabel1.Type" xml:space="preserve">
-    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>CCWin.CCSkinMain, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>484, 231</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>RememberMe</value>
-  </data>
-  <data name="&gt;&gt;YesRadioButton.Type" xml:space="preserve">
-    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;NoRadioButton.Type" xml:space="preserve">
-    <value>CCWin.SkinControl.SkinRadioButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;skinLabel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ConfirmButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;YesRadioButton.Name" xml:space="preserve">
-    <value>YesRadioButton</value>
-  </data>
-  <data name="skinLabel1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;YesRadioButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ConfirmButton.Name" xml:space="preserve">
-    <value>ConfirmButton</value>
-  </data>
-  <data name="YesRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 18</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;NoRadioButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="YesRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 24</value>
+    <value>50, 75</value>
   </data>
   <data name="skinLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 20</value>
+    <value>427, 20</value>
   </data>
   <data name="skinLabel1.Text" xml:space="preserve">
-    <value>下次启动时是否要自动导入配置文件？</value>
+    <value>Automaticly import the settings file when start next time?</value>
   </data>
-  <data name="ConfirmButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 172</value>
-  </data>
-  <data name="NoRadioButton.Text" xml:space="preserve">
-    <value>否</value>
-  </data>
-  <data name="YesRadioButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="skinLabel1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 10.8pt</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;skinLabel1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="skinLabel1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;ConfirmButton.Type" xml:space="preserve">
-    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="NoRadioButton.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="YesRadioButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 10.8pt</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 98</value>
-  </data>
-  <data name="&gt;&gt;YesRadioButton.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="YesRadioButton.Text" xml:space="preserve">
-    <value>是</value>
-  </data>
-  <data name="NoRadioButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 10.8pt</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ConfirmButton.Text" xml:space="preserve">
+    <value>Confirm</value>
   </data>
   <data name="NoRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 24</value>
+    <value>49, 24</value>
   </data>
-  <data name="&gt;&gt;NoRadioButton.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="NoRadioButton.Text" xml:space="preserve">
+    <value>No</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 12</value>
+  <data name="YesRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 24</value>
   </data>
-  <data name="&gt;&gt;NoRadioButton.Name" xml:space="preserve">
-    <value>NoRadioButton</value>
+  <data name="YesRadioButton.Text" xml:space="preserve">
+    <value>Yes</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>RememberMe</value>
-  </data>
-  <data name="&gt;&gt;ConfirmButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ConfirmButton.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;ConfirmButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en-US</value>
-  </metadata>
 </root>

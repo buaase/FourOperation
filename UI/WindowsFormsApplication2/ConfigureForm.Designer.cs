@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConfigureForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,88 +55,47 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(56, 35);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "题目中运算符的个数";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(56, 155);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "题目或运算中出现小数";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(56, 75);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 25);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "题目的数量";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(56, 115);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(164, 25);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "题目中数值的范围";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(470, 35);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(145, 25);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "题目中出现括号";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(470, 75);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(164, 25);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "题目中出现乘除法";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(470, 115);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(221, 25);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "题目中或运算中出现分数";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(470, 155);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(202, 25);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "题目或运算中出现负数";
             // 
             // OpCountUpAndDown
             // 
-            this.OpCountUpAndDown.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OpCountUpAndDown.Location = new System.Drawing.Point(298, 35);
+            resources.ApplyResources(this.OpCountUpAndDown, "OpCountUpAndDown");
             this.OpCountUpAndDown.Maximum = new decimal(new int[] {
             20,
             0,
@@ -147,8 +107,6 @@
             0,
             0});
             this.OpCountUpAndDown.Name = "OpCountUpAndDown";
-            this.OpCountUpAndDown.Size = new System.Drawing.Size(91, 27);
-            this.OpCountUpAndDown.TabIndex = 7;
             this.OpCountUpAndDown.Value = new decimal(new int[] {
             1,
             0,
@@ -157,8 +115,7 @@
             // 
             // ExeCountUpAndDown
             // 
-            this.ExeCountUpAndDown.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExeCountUpAndDown.Location = new System.Drawing.Point(298, 75);
+            resources.ApplyResources(this.ExeCountUpAndDown, "ExeCountUpAndDown");
             this.ExeCountUpAndDown.Maximum = new decimal(new int[] {
             1000000,
             0,
@@ -170,8 +127,6 @@
             0,
             0});
             this.ExeCountUpAndDown.Name = "ExeCountUpAndDown";
-            this.ExeCountUpAndDown.Size = new System.Drawing.Size(91, 27);
-            this.ExeCountUpAndDown.TabIndex = 8;
             this.ExeCountUpAndDown.Value = new decimal(new int[] {
             1,
             0,
@@ -180,23 +135,18 @@
             // 
             // MinRangeUpAndDown
             // 
-            this.MinRangeUpAndDown.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MinRangeUpAndDown.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.MinRangeUpAndDown.Location = new System.Drawing.Point(242, 115);
+            resources.ApplyResources(this.MinRangeUpAndDown, "MinRangeUpAndDown");
             this.MinRangeUpAndDown.Maximum = new decimal(new int[] {
             999,
             0,
             0,
             0});
             this.MinRangeUpAndDown.Name = "MinRangeUpAndDown";
-            this.MinRangeUpAndDown.Size = new System.Drawing.Size(91, 27);
-            this.MinRangeUpAndDown.TabIndex = 9;
             this.MinRangeUpAndDown.Click += new System.EventHandler(this.leftRange_ValueChanged);
             // 
             // MaxRangeUpAndDown
             // 
-            this.MaxRangeUpAndDown.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MaxRangeUpAndDown.Location = new System.Drawing.Point(339, 115);
+            resources.ApplyResources(this.MaxRangeUpAndDown, "MaxRangeUpAndDown");
             this.MaxRangeUpAndDown.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -208,8 +158,6 @@
             0,
             0});
             this.MaxRangeUpAndDown.Name = "MaxRangeUpAndDown";
-            this.MaxRangeUpAndDown.Size = new System.Drawing.Size(91, 27);
-            this.MaxRangeUpAndDown.TabIndex = 10;
             this.MaxRangeUpAndDown.Value = new decimal(new int[] {
             1,
             0,
@@ -218,116 +166,96 @@
             // 
             // HasBrackCheck
             // 
+            resources.ApplyResources(this.HasBrackCheck, "HasBrackCheck");
             this.HasBrackCheck.BackColor = System.Drawing.Color.Transparent;
             this.HasBrackCheck.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.HasBrackCheck.DefaultCheckButtonWidth = 20;
             this.HasBrackCheck.DownBack = null;
-            this.HasBrackCheck.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.HasBrackCheck.Location = new System.Drawing.Point(704, 35);
             this.HasBrackCheck.MouseBack = null;
             this.HasBrackCheck.Name = "HasBrackCheck";
             this.HasBrackCheck.NormlBack = null;
             this.HasBrackCheck.SelectedDownBack = null;
             this.HasBrackCheck.SelectedMouseBack = null;
             this.HasBrackCheck.SelectedNormlBack = null;
-            this.HasBrackCheck.Size = new System.Drawing.Size(37, 27);
-            this.HasBrackCheck.TabIndex = 11;
             this.HasBrackCheck.UseVisualStyleBackColor = false;
             // 
             // HasMultDivCheck
             // 
+            resources.ApplyResources(this.HasMultDivCheck, "HasMultDivCheck");
             this.HasMultDivCheck.BackColor = System.Drawing.Color.Transparent;
             this.HasMultDivCheck.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.HasMultDivCheck.DefaultCheckButtonWidth = 20;
             this.HasMultDivCheck.DownBack = null;
-            this.HasMultDivCheck.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.HasMultDivCheck.Location = new System.Drawing.Point(704, 72);
             this.HasMultDivCheck.MouseBack = null;
             this.HasMultDivCheck.Name = "HasMultDivCheck";
             this.HasMultDivCheck.NormlBack = null;
             this.HasMultDivCheck.SelectedDownBack = null;
             this.HasMultDivCheck.SelectedMouseBack = null;
             this.HasMultDivCheck.SelectedNormlBack = null;
-            this.HasMultDivCheck.Size = new System.Drawing.Size(37, 27);
-            this.HasMultDivCheck.TabIndex = 12;
             this.HasMultDivCheck.UseVisualStyleBackColor = false;
             // 
             // HasFracCheck
             // 
+            resources.ApplyResources(this.HasFracCheck, "HasFracCheck");
             this.HasFracCheck.BackColor = System.Drawing.Color.Transparent;
             this.HasFracCheck.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.HasFracCheck.DefaultCheckButtonWidth = 20;
             this.HasFracCheck.DownBack = null;
-            this.HasFracCheck.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.HasFracCheck.Location = new System.Drawing.Point(704, 112);
             this.HasFracCheck.MouseBack = null;
             this.HasFracCheck.Name = "HasFracCheck";
             this.HasFracCheck.NormlBack = null;
             this.HasFracCheck.SelectedDownBack = null;
             this.HasFracCheck.SelectedMouseBack = null;
             this.HasFracCheck.SelectedNormlBack = null;
-            this.HasFracCheck.Size = new System.Drawing.Size(37, 27);
-            this.HasFracCheck.TabIndex = 13;
             this.HasFracCheck.UseVisualStyleBackColor = false;
             // 
             // HasNegCheck
             // 
+            resources.ApplyResources(this.HasNegCheck, "HasNegCheck");
             this.HasNegCheck.BackColor = System.Drawing.Color.Transparent;
             this.HasNegCheck.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.HasNegCheck.DefaultCheckButtonWidth = 20;
             this.HasNegCheck.DownBack = null;
-            this.HasNegCheck.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.HasNegCheck.Location = new System.Drawing.Point(704, 153);
             this.HasNegCheck.MouseBack = null;
             this.HasNegCheck.Name = "HasNegCheck";
             this.HasNegCheck.NormlBack = null;
             this.HasNegCheck.SelectedDownBack = null;
             this.HasNegCheck.SelectedMouseBack = null;
             this.HasNegCheck.SelectedNormlBack = null;
-            this.HasNegCheck.Size = new System.Drawing.Size(37, 27);
-            this.HasNegCheck.TabIndex = 14;
             this.HasNegCheck.UseVisualStyleBackColor = false;
             // 
             // HasDecimalCheck
             // 
+            resources.ApplyResources(this.HasDecimalCheck, "HasDecimalCheck");
             this.HasDecimalCheck.BackColor = System.Drawing.Color.Transparent;
             this.HasDecimalCheck.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.HasDecimalCheck.DefaultCheckButtonWidth = 20;
             this.HasDecimalCheck.DownBack = null;
-            this.HasDecimalCheck.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.HasDecimalCheck.Location = new System.Drawing.Point(322, 156);
             this.HasDecimalCheck.MouseBack = null;
             this.HasDecimalCheck.Name = "HasDecimalCheck";
             this.HasDecimalCheck.NormlBack = null;
             this.HasDecimalCheck.SelectedDownBack = null;
             this.HasDecimalCheck.SelectedMouseBack = null;
             this.HasDecimalCheck.SelectedNormlBack = null;
-            this.HasDecimalCheck.Size = new System.Drawing.Size(37, 27);
-            this.HasDecimalCheck.TabIndex = 15;
             this.HasDecimalCheck.UseVisualStyleBackColor = false;
             // 
             // skinButton1
             // 
+            resources.ApplyResources(this.skinButton1, "skinButton1");
             this.skinButton1.BackColor = System.Drawing.Color.Transparent;
             this.skinButton1.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinButton1.DownBack = null;
-            this.skinButton1.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.skinButton1.Location = new System.Drawing.Point(322, 201);
             this.skinButton1.MouseBack = null;
             this.skinButton1.Name = "skinButton1";
             this.skinButton1.NormlBack = null;
-            this.skinButton1.Size = new System.Drawing.Size(155, 54);
-            this.skinButton1.TabIndex = 16;
-            this.skinButton1.Text = "保存";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);
             // 
             // ConfigureForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(801, 271);
             this.Controls.Add(this.skinButton1);
             this.Controls.Add(this.HasDecimalCheck);
             this.Controls.Add(this.HasNegCheck);
@@ -347,7 +275,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "ConfigureForm";
-            this.Text = "配置窗口";
             ((System.ComponentModel.ISupportInitialize)(this.OpCountUpAndDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExeCountUpAndDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinRangeUpAndDown)).EndInit();

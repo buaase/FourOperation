@@ -117,11 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Aboutme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\Aboutme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="success" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\success.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>&gt;&gt;&gt;[Range Description]:
+
+      The minimum range is 0 and the maximum is 1000. If you want to generate the negative numbers, let the negative option be enabled. Range domain contains [L, R), if having checked generated scores option,you will get the exercises which will meet the denominator of a fraction &gt; 0 &amp; &lt; R.
+
+&gt;&gt;&gt;[Generate Description]:
+ 
+       When you choose to generate some number of formula, will have to wait at least more than 20s, after waiting for a period of time you can generate the maximum number of questions and answers.
+
+&gt;&gt;&gt;[Xml settings]:
+
+      When you start the excutable file, you will get a file named after "configure.xml". Don't worry, it is normal.
+
+</value>
   </data>
 </root>

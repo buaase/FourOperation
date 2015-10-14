@@ -8,6 +8,8 @@ using WindowsFormsApplication2.Calc;
 using System.Xml;
 using Core;
 using System.Text.RegularExpressions;
+using System.Globalization;
+using System.ComponentModel;
 
 namespace WindowsFormsApplication2
 {
@@ -110,23 +112,17 @@ namespace WindowsFormsApplication2
             {
                 InvokeCall a = new InvokeCall(UpdateProgressBar);
                 BeginInvoke(a);
-
             }
         }
 
         public void UpdateProgressBar()
         {
-            GenProgressIndicator.Hide();
             ExeAnsTextBox.Text += "已经生成了" + ReadXml("//Count//FactCount") + "道题目与答案到指定的文件中." + Environment.NewLine;
-            ExeAnsTextBox.Show();
         }
 
         #region(生成器核心调用处)
-        private void skinButton1_Click(object sender, EventArgs e)
+        private void GenButton_Click(object sender, EventArgs e)
         {
-            GenProgressIndicator.Show();
-            GenProgressIndicator.Start();
-            ExeAnsTextBox.Visible = false;
             //——————————————————-//
             // This is should be a generator ...      //
             //________________________________________//
@@ -221,8 +217,7 @@ namespace WindowsFormsApplication2
             }
             calcTextBox.Text = text;
         }
-
-        #region(计算器核心调用处)
+        
         private void calcButtonResult_Click(object sender, EventArgs e)
         {
             //这里应该调用计算核心中的计算单个表达式的值，并显示在该TextBox中
@@ -246,7 +241,6 @@ namespace WindowsFormsApplication2
                 calcTextBox.Text = Content;
             }
         }
-        #endregion()
 
 
         private void ButtonBindings(object sender,EventArgs e)
@@ -433,9 +427,79 @@ namespace WindowsFormsApplication2
             conf.ShowDialog();
         }
 
-        private void skinButton2_Click(object sender, EventArgs e)
+        //停止生成按钮，停下线程的运行
+        private void abortButton_Click(object sender, EventArgs e)
         {
-            td.Abort();
+            if (td != null)
+            {
+                td.Abort();
+            }
+        }
+
+        private void 中文ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("zh-Hans");
+            ApplyResource();
+        }
+
+
+        private void ApplyResource()
+        {
+            ComponentResourceManager res = new ComponentResourceManager(typeof(MainForm));
+            foreach (Control ctl in Controls)
+            {
+                if (ctl.GetType() == typeof(Panel))
+                    ChangePanleLang((Panel)ctl);
+                res.ApplyResources(ctl, ctl.Name);
+            }
+            //菜单
+            foreach (ToolStripMenuItem item in this.skinMenuStrip1.Items)
+            {
+
+                EnumChildMenu(item);
+            }
+            ChangePanleLang(tabPageCalc);
+            ChangePanleLang(tabPageCheck);
+            ChangePanleLang(tabPageGen);
+
+            //Caption
+            res.ApplyResources(this, "$this");
+        }
+
+
+        private void EnumChildMenu(ToolStripItem tsi)
+        {
+
+            ComponentResourceManager res = new ComponentResourceManager(typeof(MainForm));
+            res.ApplyResources(tsi,tsi.Name);
+            if (tsi is ToolStripMenuItem)
+            {
+                ToolStripMenuItem tsmi = tsi as ToolStripMenuItem;
+                foreach (ToolStripItem item in tsmi.DropDownItems)
+                {
+                    EnumChildMenu(item);
+                }
+            }
+        }
+
+
+        private void ChangePanleLang(Panel pane)
+        {
+            ComponentResourceManager res = new ComponentResourceManager(typeof(MainForm));
+            foreach (Control ctl in pane.Controls)
+            {
+                if (ctl.GetType() == typeof(Panel))
+                    ChangePanleLang((Panel)ctl);
+                res.ApplyResources(ctl, ctl.Name);
+            }
+        }
+
+        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //en 为英文，更多的关于 Culture 的字符串请查 MSDN
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
+            //对当前窗体应用更改后的资源
+            ApplyResource();
         }
     }
 }

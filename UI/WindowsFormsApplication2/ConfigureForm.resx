@@ -117,4 +117,514 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 19</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxRangeUpAndDown.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinNumericUpDown, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 10.8pt</value>
+  </data>
+  <data name="&gt;&gt;MaxRangeUpAndDown.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;OpCountUpAndDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 97</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>题目中出现乘除法</value>
+  </data>
+  <data name="HasDecimalCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 178</value>
+  </data>
+  <data name="HasNegCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HasBrackCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 27</value>
+  </data>
+  <data name="&gt;&gt;ExeCountUpAndDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MaxRangeUpAndDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 137</value>
+  </data>
+  <data name="&gt;&gt;HasNegCheck.Name" xml:space="preserve">
+    <value>HasNegCheck</value>
+  </data>
+  <data name="&gt;&gt;HasMultDivCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="skinButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>配置窗口</value>
+  </data>
+  <data name="MinRangeUpAndDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 137</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="HasBrackCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;OpCountUpAndDown.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;HasDecimalCheck.Name" xml:space="preserve">
+    <value>HasDecimalCheck</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;HasMultDivCheck.Name" xml:space="preserve">
+    <value>HasMultDivCheck</value>
+  </data>
+  <data name="&gt;&gt;MaxRangeUpAndDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 19</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>题目的数量</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>题目中出现括号</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="skinButton1.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="&gt;&gt;HasNegCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OpCountUpAndDown.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinNumericUpDown, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MinRangeUpAndDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;HasFracCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HasFracCheck.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="HasFracCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>题目或运算中出现负数</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="HasFracCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 134</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 19</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 137</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 57</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 19</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ConfigureForm</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Name" xml:space="preserve">
+    <value>skinButton1</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MaxRangeUpAndDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="MaxRangeUpAndDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 10.2pt</value>
+  </data>
+  <data name="skinButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 230</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 10.8pt</value>
+  </data>
+  <data name="HasNegCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 27</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="OpCountUpAndDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 10.2pt</value>
+  </data>
+  <data name="HasFracCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="HasNegCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 175</value>
+  </data>
+  <data name="&gt;&gt;HasFracCheck.Name" xml:space="preserve">
+    <value>HasFracCheck</value>
+  </data>
+  <data name="skinButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 54</value>
+  </data>
+  <data name="&gt;&gt;HasBrackCheck.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 19</value>
+  </data>
+  <data name="ExeCountUpAndDown.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="MinRangeUpAndDown.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="HasMultDivCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 94</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 57</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MinRangeUpAndDown.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 10.8pt</value>
+  </data>
+  <data name="ExeCountUpAndDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="HasBrackCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 57</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 10.8pt</value>
+  </data>
+  <data name="MinRangeUpAndDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;HasMultDivCheck.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="MaxRangeUpAndDown.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>题目中或运算中出现分数</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;HasNegCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="OpCountUpAndDown.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;HasBrackCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExeCountUpAndDown.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinNumericUpDown, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;HasMultDivCheck.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;MinRangeUpAndDown.Name" xml:space="preserve">
+    <value>MinRangeUpAndDown</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ExeCountUpAndDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 10.2pt</value>
+  </data>
+  <data name="HasDecimalCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;HasFracCheck.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MinRangeUpAndDown.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinNumericUpDown, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 177</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MinRangeUpAndDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HasBrackCheck.Name" xml:space="preserve">
+    <value>HasBrackCheck</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MinRangeUpAndDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 10.2pt</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>CCWin.CCSkinMain, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>题目或运算中出现小数</value>
+  </data>
+  <data name="OpCountUpAndDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="HasMultDivCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ExeCountUpAndDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 97</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 137</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;HasDecimalCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 19</value>
+  </data>
+  <data name="&gt;&gt;MaxRangeUpAndDown.Name" xml:space="preserve">
+    <value>MaxRangeUpAndDown</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 10.8pt</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>题目中运算符的个数</value>
+  </data>
+  <data name="skinButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="&gt;&gt;ExeCountUpAndDown.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;HasDecimalCheck.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="HasBrackCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="&gt;&gt;ExeCountUpAndDown.Name" xml:space="preserve">
+    <value>ExeCountUpAndDown</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 10.8pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 177</value>
+  </data>
+  <data name="HasDecimalCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>802, 306</value>
+  </data>
+  <data name="HasDecimalCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 27</value>
+  </data>
+  <data name="HasMultDivCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 27</value>
+  </data>
+  <data name="&gt;&gt;OpCountUpAndDown.Name" xml:space="preserve">
+    <value>OpCountUpAndDown</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;HasBrackCheck.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="HasNegCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;HasNegCheck.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinCheckBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HasFracCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 27</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 10.8pt</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 10.8pt</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="OpCountUpAndDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 57</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="HasMultDivCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 97</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>题目中数值的范围</value>
+  </data>
+  <data name="&gt;&gt;HasDecimalCheck.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
 </root>

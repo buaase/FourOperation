@@ -117,42 +117,930 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="skinToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>136, 25</value>
-  </metadata>
-  <metadata name="GradeFolderDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>397, 31</value>
-  </metadata>
-  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>557, 34</value>
-  </metadata>
-  <metadata name="skinMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>253, 31</value>
-  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PanelRandom.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="calcTextBox.SkinTxt.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;skinPictureBox1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinPictureBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;更改生成Exercisetxt文件路径ToolStripMenuItem.Name" xml:space="preserve">
+    <value>更改生成Exercisetxt文件路径ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;GradeFolderDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calcButtonSub.Name" xml:space="preserve">
+    <value>calcButtonSub</value>
+  </data>
+  <data name="skinLabel2.Text" xml:space="preserve">
+    <value>skinLabel2</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calcTextBox.SkinTxt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="skinMenuStrip1.BaseItemDown" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAQJJREFUSEut
-        1LlKg0EAReEfREQEEUQF67yEtYWdhWUQRcQFQVwRUVCzkY28QZpUqYJFqvxNKiFvFc95hztwijvFV0wx
-        BWeXjqgaSkuzOCnL8mW5XP4k0tIUPuWiRiuhaprCZ4w6rYaqawqfMxq0FqqhKXzBaNJ6qKam8CWjRRuh
-        WprCV4w2bYZqawpfMzq0FaqjKXzL6NJ2qK6m8B2jRzuheprC94w+7YXqawo/MAa0H2qgKfzEGNJBqKGm
-        sB/QiA5DjTSFXxljOg411hR+Y0yoGmqiKfzOmNJNqKmm8AdjRr51opmm8CdjTt+h5prCj4vF4peLv0Ra
-        msIVeqavUFhF5R+ODjA2gmw0KQAAAABJRU5ErkJggg==
-</value>
+  <data name="calcTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 63</value>
   </data>
-  <data name="skinMenuStrip1.BaseItemMouse" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAQFJREFUSEut
-        0jlKg1EAReE0IiKIEEQQshALKwu7OOIYiQPiAlyA2ApmJCG9kCJNqjSpwg9pUtj964nn7OE+OMV9xVc8
-        XoVTpSOqh9LSrJyUZfm7Xq//EmlpCp9ysaLvUCtN4TPGkj5DLTWFzxkL+gi10BS+YMzpPdRcU/iSMaP7
-        UDNN4SvGlOqhpprC14wJHYeaaArfMMZ0GGqsKXzLGNFBqJGmsA8+pP1QQ03hB8aA9kINNIUbDqqGEm4I
-        PzL6tBuqryncZPRoJ1RPU/iJ0aXtUF1N4WdGh7ZCdTSFXxht2gzV1hR+ZbRoI1RLU/iuKIovLn4SaWkK
-        18gP/RYKq1L7Bw8AN9TW9zQtAAAAAElFTkSuQmCC
-</value>
+  <data name="skinButton1.Text" xml:space="preserve">
+    <value>开始检查</value>
   </data>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>71</value>
-  </metadata>
+  <data name="skinPictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;calcButton0.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="skinButton3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcButtonResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 192</value>
+  </data>
+  <data name="&gt;&gt;calcButtonRBrack.Name" xml:space="preserve">
+    <value>calcButtonRBrack</value>
+  </data>
+  <data name="calcButton8.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="calcButton7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="calcButton2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GenProgressIndicator.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="calcButtonQuote.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="abortButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AnswerText.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="skinMenuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;skinLabel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="calcButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 119</value>
+  </data>
+  <data name="&gt;&gt;GenButton.Parent" xml:space="preserve">
+    <value>PanelGen</value>
+  </data>
+  <data name="PanelGen.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="skinTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 108</value>
+  </data>
+  <data name="&gt;&gt;calcButton7.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="calcButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PanelGen.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="calcButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="DisGradeBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="DisGradeBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExeAnsTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="skinLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 115</value>
+  </data>
+  <data name="&gt;&gt;calcButton3.Name" xml:space="preserve">
+    <value>calcButton3</value>
+  </data>
+  <data name="&gt;&gt;calcButtonDelete.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;导入配置设置ToolStripMenuItem.Name" xml:space="preserve">
+    <value>导入配置设置ToolStripMenuItem</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="calcTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;calcButton9.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="calcButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="PanelGen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="calcButtonResult.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinButton4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPageGen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ExeAnsTextBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="skinButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;한국어ToolStripMenuItem.Name" xml:space="preserve">
+    <value>한국어ToolStripMenuItem</value>
+  </data>
+  <data name="ExeAnsTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="calcButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="&gt;&gt;中文ToolStripMenuItem.Name" xml:space="preserve">
+    <value>中文ToolStripMenuItem</value>
+  </data>
+  <data name="skinLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 200</value>
+  </data>
+  <data name="calcButtonDiv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="&gt;&gt;GenProgressIndicator.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="calcButtonDiv.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;calcButton8.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="&gt;&gt;lastCalcBox.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GenProgressIndicator.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinProgressIndicator, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinButton1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DisGradeBox.Name" xml:space="preserve">
+    <value>DisGradeBox</value>
+  </data>
+  <data name="skinLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="lastCalcBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 27</value>
+  </data>
+  <data name="&gt;&gt;skinLabel1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;skinButton3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;calcButtonDiv.Name" xml:space="preserve">
+    <value>calcButtonDiv</value>
+  </data>
+  <data name="&gt;&gt;skinMenuStrip1.Name" xml:space="preserve">
+    <value>skinMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;calcButtonQuote.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="帮助ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="calcButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 251</value>
+  </data>
+  <data name="&gt;&gt;calcButtonMult.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="tabPageGen.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="skinButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 108</value>
+  </data>
+  <data name="GenButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 287</value>
+  </data>
+  <data name="calcButtonMult.Text" xml:space="preserve">
+    <value>×</value>
+  </data>
+  <data name="&gt;&gt;calcButton9.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="calcButtonLBrack.Text" xml:space="preserve">
+    <value>(</value>
+  </data>
+  <data name="abortButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 62</value>
+  </data>
+  <data name="calcButtonQuestion.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageCheck.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcTextBox.SkinTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 29</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="&gt;&gt;skinTextBox1.Parent" xml:space="preserve">
+    <value>PanelRandom</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="skinPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 114</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;更改生成Answertxt文件路径ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="calcButtonDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="calcButtonRBrack.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="calcTextBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="ExeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;calcButtonDiv.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="calcButton6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="calcButtonQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 317</value>
+  </data>
+  <data name="&gt;&gt;calcButton8.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="中文ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="&gt;&gt;calcButtonQuestion.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="&gt;&gt;ExeText.Parent" xml:space="preserve">
+    <value>tabPageCheck</value>
+  </data>
+  <data name="skinLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="&gt;&gt;calcButtonAdd.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ExeAnsTextBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;calcButton6.Name" xml:space="preserve">
+    <value>calcButton6</value>
+  </data>
+  <data name="&gt;&gt;DisGradeBox.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;calcButton6.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="calcButtonQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="&gt;&gt;lastCalcBox.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="skinTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 35</value>
+  </data>
+  <data name="&gt;&gt;tabPageGen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageCalc.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;calcTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageCalc.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="calcButtonSub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 317</value>
+  </data>
+  <data name="skinButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PanelRandom.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="calcButton0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;skinTextBox1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="calcButton4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="한국어ToolStripMenuItem.Text" xml:space="preserve">
+    <value>한국어</value>
+  </data>
+  <data name="ExeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 88</value>
+  </data>
+  <data name="&gt;&gt;语言ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtfRichTextBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="calcButtonLBrack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcButtonAdd.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="PanelGen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;calcButtonMult.Name" xml:space="preserve">
+    <value>calcButtonMult</value>
+  </data>
+  <data name="GenPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>878, 401</value>
+  </data>
+  <data name="calcButton8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;GenButton.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;calcButtonMult.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;abortButton.Parent" xml:space="preserve">
+    <value>PanelGen</value>
+  </data>
+  <data name="lastCalcBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;calcButtonSub.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="开始ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;calcButtonQuestion.Name" xml:space="preserve">
+    <value>calcButtonQuestion</value>
+  </data>
+  <data name="&gt;&gt;tabPageCalc.Parent" xml:space="preserve">
+    <value>PageSet</value>
+  </data>
+  <data name="&gt;&gt;abortButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="skinPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 167</value>
+  </data>
+  <data name="&gt;&gt;calcButton4.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="AnswerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="ExeAnsTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;calcButtonAdd.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;calcButtonAdd.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="calcButtonResult.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="skinButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 35</value>
+  </data>
+  <data name="&gt;&gt;tabPageGen.Parent" xml:space="preserve">
+    <value>PageSet</value>
+  </data>
+  <data name="AnswerText.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;AnswerText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;AnswerText.Name" xml:space="preserve">
+    <value>AnswerText</value>
+  </data>
+  <data name="DisGradeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;PanelGen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>CCWin.CCSkinMain, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinLabel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;calcButtonQuote.Name" xml:space="preserve">
+    <value>calcButtonQuote</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;calcButton5.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;calcButtonClean.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="&gt;&gt;PanelGen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calcButton1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;calcButtonSub.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tabPageCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>884, 407</value>
+  </data>
+  <data name="AnswerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 37</value>
+  </data>
+  <data name="calcButtonSub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="&gt;&gt;GenPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="calcButtonQuote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 317</value>
+  </data>
+  <data name="ExeAnsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>878, 225</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="calcButtonRBrack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DisGradeBox.SkinTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>802, 204</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="calcButtonQuote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="calcButton8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="更改生成Answertxt文件路径ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="calcButtonRBrack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="calcButton0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 317</value>
+  </data>
+  <data name="calcTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;tabPageCheck.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;calcButton8.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="calcButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 185</value>
+  </data>
+  <data name="&gt;&gt;tabPageCheck.Parent" xml:space="preserve">
+    <value>PageSet</value>
+  </data>
+  <data name="PageSet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="skinLabel1.Text" xml:space="preserve">
+    <value>skinLabel1</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 215</value>
+  </data>
+  <data name="&gt;&gt;calcButtonClean.Name" xml:space="preserve">
+    <value>calcButtonClean</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="AnswerText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GenProgressIndicator.Parent" xml:space="preserve">
+    <value>ExeAnsTextBox</value>
+  </data>
+  <data name="&gt;&gt;更改生成Answertxt文件路径ToolStripMenuItem.Name" xml:space="preserve">
+    <value>更改生成Answertxt文件路径ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;calcTextBox.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lastCalcBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinPictureBox1.Parent" xml:space="preserve">
+    <value>PanelRandom</value>
+  </data>
+  <data name="&gt;&gt;开始ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GenProgressIndicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 214</value>
+  </data>
+  <data name="&gt;&gt;AnswerText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="calcButton3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageCheck.Text" xml:space="preserve">
+    <value>检查答案</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>900, 500</value>
+  </data>
+  <data name="&gt;&gt;calcButton0.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="&gt;&gt;skinPictureBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;更改路径ToolStripMenuItem.Name" xml:space="preserve">
+    <value>更改路径ToolStripMenuItem</value>
+  </data>
+  <data name="skinButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 93</value>
+  </data>
+  <data name="&gt;&gt;skinToolTip1.Name" xml:space="preserve">
+    <value>skinToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ExeButton.Name" xml:space="preserve">
+    <value>ExeButton</value>
+  </data>
+  <data name="&gt;&gt;skinPictureBox1.Name" xml:space="preserve">
+    <value>skinPictureBox1</value>
+  </data>
+  <data name="tabPageCalc.Text" xml:space="preserve">
+    <value>计算器</value>
+  </data>
+  <data name="ExeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 37</value>
+  </data>
+  <data name="calcButton3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ExeText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;calcButtonSub.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="更改生成Exercisetxt文件路径ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="&gt;&gt;calcButton2.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="calcButtonSub.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ExeButton.Text" xml:space="preserve">
+    <value>导入测验题目</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="skinTextBox1.Text" xml:space="preserve">
+    <value>skinTextBox1</value>
+  </data>
+  <data name="&gt;&gt;calcTextBox.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="calcButtonResult.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;skinLabel2.Parent" xml:space="preserve">
+    <value>PanelRandom</value>
+  </data>
+  <data name="skinMenuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="skinMenuStrip1.Text" xml:space="preserve">
+    <value>skinMenuStrip1</value>
+  </data>
+  <data name="语言ToolStripMenuItem.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="calcButtonRBrack.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.Text" xml:space="preserve">
+    <value>skinTextBox1</value>
+  </data>
+  <data name="calcButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="calcButtonDiv.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="&gt;&gt;calcButtonQuote.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;rtfRichTextBox1.Name" xml:space="preserve">
+    <value>rtfRichTextBox1</value>
+  </data>
+  <data name="&gt;&gt;设置配置ToolStripMenuItem.Name" xml:space="preserve">
+    <value>设置配置ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;DisGradeBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="calcButton9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="更改生成Answertxt文件路径ToolStripMenuItem.Text" xml:space="preserve">
+    <value>更改生成Answer.txt文件路径</value>
+  </data>
+  <data name="GenPage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="calcButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcTextBox.SkinTxt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;calcButton7.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="calcButtonRBrack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 317</value>
+  </data>
+  <data name="&gt;&gt;skinLabel2.Name" xml:space="preserve">
+    <value>skinLabel2</value>
+  </data>
+  <data name="PanelGen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>878, 401</value>
+  </data>
+  <data name="calcButtonClean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 55</value>
+  </data>
+  <data name="&gt;&gt;rtfRichTextBox1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.RtfRichTextBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;中文ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PanelRandom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>878, 401</value>
+  </data>
+  <data name="&gt;&gt;ExeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="calcButton5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calcButtonSub.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcButton1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcButton9.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;calcButton0.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Name" xml:space="preserve">
+    <value>skinButton1</value>
+  </data>
+  <data name="AnswerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lastCalcBox.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;ExeAnsTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="中文ToolStripMenuItem.Text" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="&gt;&gt;PanelRandom.Name" xml:space="preserve">
+    <value>PanelRandom</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="&gt;&gt;GenButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="calcButtonMult.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DisGradeBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="ExeText.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ExeAnsTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinMenuStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DisGradeBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;calcButton7.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;calcButton1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="skinLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="GenButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 62</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="calcButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 251</value>
+  </data>
+  <data name="PanelRandom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPageCalc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="GenButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;calcButtonClean.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ExeText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;calcButtonQuote.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;calcButton2.Name" xml:space="preserve">
+    <value>calcButton2</value>
+  </data>
+  <data name="calcButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEASEgAAAEAIACIVAAAFgAAACgAAABIAAAAkAAAAAEAIAAAAAAAAFEAAAAAAAAAAAAAAAAAAAAA
@@ -519,4 +1407,946 @@
         AAA=
 </value>
   </data>
+  <data name="calcButtonMult.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tabPageGen.Text" xml:space="preserve">
+    <value>生成表达式</value>
+  </data>
+  <data name="&gt;&gt;帮助ToolStripMenuItem.Name" xml:space="preserve">
+    <value>帮助ToolStripMenuItem</value>
+  </data>
+  <data name="calcButtonDiv.Text" xml:space="preserve">
+    <value>÷</value>
+  </data>
+  <data name="ExeAnsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;语言ToolStripMenuItem.Name" xml:space="preserve">
+    <value>语言ToolStripMenuItem</value>
+  </data>
+  <data name="帮助ToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="tabPageGen.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;PageSet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ExeButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AnswerButton.Parent" xml:space="preserve">
+    <value>tabPageCheck</value>
+  </data>
+  <data name="&gt;&gt;lastCalcBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 25</value>
+  </data>
+  <data name="&gt;&gt;calcButton9.Name" xml:space="preserve">
+    <value>calcButton9</value>
+  </data>
+  <data name="&gt;&gt;导入配置设置ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="skinButton3.Text" xml:space="preserve">
+    <value>确认答案</value>
+  </data>
+  <data name="calcButtonResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 185</value>
+  </data>
+  <data name="PanelRandom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;calcButtonResult.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="calcButtonLBrack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="calcButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="&gt;&gt;AnswerButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;skinButton4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;skinLabel1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PanelRandom.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ExeText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPageCalc.Name" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;tabPageCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinMenuStrip1.BaseItemDown" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAQJJREFUSEut
+        1LlKg0EAReEfREQEEUQF67yEtYWdhWUQRcQFQVwRUVCzkY28QZpUqYJFqvxNKiFvFc95hztwijvFV0wx
+        BWeXjqgaSkuzOCnL8mW5XP4k0tIUPuWiRiuhaprCZ4w6rYaqawqfMxq0FqqhKXzBaNJ6qKam8CWjRRuh
+        WprCV4w2bYZqawpfMzq0FaqjKXzL6NJ2qK6m8B2jRzuheprC94w+7YXqawo/MAa0H2qgKfzEGNJBqKGm
+        sB/QiA5DjTSFXxljOg411hR+Y0yoGmqiKfzOmNJNqKmm8AdjRr51opmm8CdjTt+h5prCj4vF4peLv0Ra
+        msIVeqavUFhF5R+ODjA2gmw0KQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="calcButtonAdd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GenButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtfRichTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;calcButtonDelete.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="skinTextBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;GenPage.Name" xml:space="preserve">
+    <value>GenPage</value>
+  </data>
+  <data name="&gt;&gt;calcButton8.Name" xml:space="preserve">
+    <value>calcButton8</value>
+  </data>
+  <data name="skinLabel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcButton0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="&gt;&gt;tabPageCalc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calcButton3.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="开始ToolStripMenuItem.Text" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="calcButtonMult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="abortButton.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;skinToolTip1.Type" xml:space="preserve">
+    <value>CCWin.SkinToolTip, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="calcButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="更改生成Gradetxt文件路径ToolStripMenuItem.Text" xml:space="preserve">
+    <value>更改生成Grade.txt文件路径</value>
+  </data>
+  <data name="PageSet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;calcButton4.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="AnswerButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinMenuStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinTextBox1.SkinTxt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;更改生成Gradetxt文件路径ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;skinButton4.Name" xml:space="preserve">
+    <value>skinButton4</value>
+  </data>
+  <data name="calcTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 39</value>
+  </data>
+  <data name="GenButton.Text" xml:space="preserve">
+    <value>开始生成</value>
+  </data>
+  <data name="导入配置设置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="&gt;&gt;calcButtonRBrack.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GenProgressIndicator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcTextBox.SkinTxt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;skinMenuStrip1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinMenuStrip, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="skinTextBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="calcButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 251</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Parent" xml:space="preserve">
+    <value>tabPageCheck</value>
+  </data>
+  <data name="&gt;&gt;PanelGen.Parent" xml:space="preserve">
+    <value>GenPage</value>
+  </data>
+  <data name="&gt;&gt;ExeButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GenPage.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinPanel, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rtfRichTextBox1.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="skinTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lastCalcBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="calcButtonClean.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="calcButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 185</value>
+  </data>
+  <data name="&gt;&gt;calcButton3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tabPageCalc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ExeText.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;calcButtonAdd.Name" xml:space="preserve">
+    <value>calcButtonAdd</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinButton3.Name" xml:space="preserve">
+    <value>skinButton3</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calcButtonMult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 185</value>
+  </data>
+  <data name="&gt;&gt;GenPage.Parent" xml:space="preserve">
+    <value>tabPageGen</value>
+  </data>
+  <data name="&gt;&gt;ExeText.Name" xml:space="preserve">
+    <value>ExeText</value>
+  </data>
+  <data name="&gt;&gt;lastCalcBox.Name" xml:space="preserve">
+    <value>lastCalcBox</value>
+  </data>
+  <data name="&gt;&gt;PageSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="更改生成Gradetxt文件路径ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 22</value>
+  </data>
+  <data name="&gt;&gt;DisGradeBox.Parent" xml:space="preserve">
+    <value>tabPageCheck</value>
+  </data>
+  <data name="&gt;&gt;calcButtonDiv.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;calcButton5.Name" xml:space="preserve">
+    <value>calcButton5</value>
+  </data>
+  <data name="skinButton4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcButtonClean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AnswerButton.Name" xml:space="preserve">
+    <value>AnswerButton</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;GenProgressIndicator.Name" xml:space="preserve">
+    <value>GenProgressIndicator</value>
+  </data>
+  <data name="&gt;&gt;更改路径ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calcButtonLBrack.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;calcButton5.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="DisGradeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>812, 214</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;calcButton9.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="calcButtonQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tabPageCalc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>884, 407</value>
+  </data>
+  <data name="&gt;&gt;calcButtonQuestion.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="calcButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 119</value>
+  </data>
+  <data name="设置配置ToolStripMenuItem.Text" xml:space="preserve">
+    <value>设置配置</value>
+  </data>
+  <data name="&gt;&gt;PageSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GenButton.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;设置配置ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="tabPageCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="calcButton2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinButton4.Parent" xml:space="preserve">
+    <value>PanelRandom</value>
+  </data>
+  <data name="calcButton9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 119</value>
+  </data>
+  <data name="skinPictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GenPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;calcButtonResult.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;calcButton4.Name" xml:space="preserve">
+    <value>calcButton4</value>
+  </data>
+  <data name="&gt;&gt;calcButton6.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;calcButtonClean.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="skinButton4.Text" xml:space="preserve">
+    <value>下一题</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PageSet.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="rtfRichTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 341</value>
+  </data>
+  <data name="calcButtonDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 185</value>
+  </data>
+  <data name="&gt;&gt;calcButtonMult.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ExeButton.Parent" xml:space="preserve">
+    <value>tabPageCheck</value>
+  </data>
+  <data name="calcButton5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GenPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;ExeButton.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="calcButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;skinButton3.Parent" xml:space="preserve">
+    <value>PanelRandom</value>
+  </data>
+  <data name="skinTextBox1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="更改生成Exercisetxt文件路径ToolStripMenuItem.Text" xml:space="preserve">
+    <value>更改生成Exercise.txt文件路径</value>
+  </data>
+  <data name="calcTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;calcButtonResult.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="&gt;&gt;calcButtonRBrack.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;calcButtonDelete.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="calcButtonAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcButton9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinTextBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;calcButtonResult.Name" xml:space="preserve">
+    <value>calcButtonResult</value>
+  </data>
+  <data name="PanelRandom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;abortButton.Name" xml:space="preserve">
+    <value>abortButton</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="calcButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="skinTextBox1.SkinTxt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="calcButtonAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 251</value>
+  </data>
+  <data name="&gt;&gt;calcButton2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="calcButtonDiv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 119</value>
+  </data>
+  <data name="&gt;&gt;关于ToolStripMenuItem.Name" xml:space="preserve">
+    <value>关于ToolStripMenuItem</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;帮助ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calcButtonQuestion.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;skinMenuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PageSet.Name" xml:space="preserve">
+    <value>PageSet</value>
+  </data>
+  <data name="한국어ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="&gt;&gt;更改生成Gradetxt文件路径ToolStripMenuItem.Name" xml:space="preserve">
+    <value>更改生成Gradetxt文件路径ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;calcButton6.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="rtfRichTextBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;calcButtonLBrack.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="DisGradeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 167</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="tabPageGen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcTextBox.SkinTxt.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="DisGradeBox.SkinTxt.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinButton1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GenProgressIndicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 210</value>
+  </data>
+  <data name="&gt;&gt;calcButton1.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="&gt;&gt;calcTextBox.Name" xml:space="preserve">
+    <value>calcTextBox</value>
+  </data>
+  <data name="ExeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 37</value>
+  </data>
+  <data name="&gt;&gt;PanelRandom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ExeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 88</value>
+  </data>
+  <data name="calcButton7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;calcButton2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="AnswerText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 37</value>
+  </data>
+  <data name="GenProgressIndicator.Text" xml:space="preserve">
+    <value>skinProgressIndicator1</value>
+  </data>
+  <data name="PageSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 56</value>
+  </data>
+  <data name="calcTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;calcButton5.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;PanelRandom.Parent" xml:space="preserve">
+    <value>PanelGen</value>
+  </data>
+  <data name="skinTextBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;关于ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinMenuStrip1.BaseItemMouse" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAQFJREFUSEut
+        0jlKg1EAReE0IiKIEEQQshALKwu7OOIYiQPiAlyA2ApmJCG9kCJNqjSpwg9pUtj964nn7OE+OMV9xVc8
+        XoVTpSOqh9LSrJyUZfm7Xq//EmlpCp9ysaLvUCtN4TPGkj5DLTWFzxkL+gi10BS+YMzpPdRcU/iSMaP7
+        UDNN4SvGlOqhpprC14wJHYeaaArfMMZ0GGqsKXzLGNFBqJGmsA8+pP1QQ03hB8aA9kINNIUbDqqGEm4I
+        PzL6tBuqryncZPRoJ1RPU/iJ0aXtUF1N4WdGh7ZCdTSFXxht2gzV1hR+ZbRoI1RLU/iuKIovLn4SaWkK
+        18gP/RYKq1L7Bw8AN9TW9zQtAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="calcTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AnswerText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtfRichTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 36</value>
+  </data>
+  <data name="calcButtonQuote.Text" xml:space="preserve">
+    <value>'</value>
+  </data>
+  <data name="&gt;&gt;calcButton1.Name" xml:space="preserve">
+    <value>calcButton1</value>
+  </data>
+  <data name="lastCalcBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;한국어ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="skinLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;calcButton0.Name" xml:space="preserve">
+    <value>calcButton0</value>
+  </data>
+  <data name="calcButton6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GradeFolderDialog.Name" xml:space="preserve">
+    <value>GradeFolderDialog</value>
+  </data>
+  <data name="&gt;&gt;PanelGen.Name" xml:space="preserve">
+    <value>PanelGen</value>
+  </data>
+  <data name="skinButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 311</value>
+  </data>
+  <data name="abortButton.Text" xml:space="preserve">
+    <value>停止生成</value>
+  </data>
+  <data name="calcButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 185</value>
+  </data>
+  <data name="calcButtonClean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 119</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>900, 500</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;calcButton4.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabPageCheck.Name" xml:space="preserve">
+    <value>tabPageCheck</value>
+  </data>
+  <data name="PageSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lastCalcBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 29</value>
+  </data>
+  <data name="&gt;&gt;calcButtonDiv.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="calcButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rtfRichTextBox1.Text" xml:space="preserve">
+    <value>计算器支持键盘快捷键输入，以下为快捷键映射说明：
+
+Shift + '8' = '×'
+Shift + '/' = '÷'
+Shift + '9' = '('
+Shift + '0' = ')'
+Shift + '=' = '+'
+Shift + '"' = ' ' '
+Enter = '='
+Delete = 'C'
+其余均为键盘默认单键控制</value>
+  </data>
+  <data name="calcButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="&gt;&gt;更改生成Exercisetxt文件路径ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>四则运算测验器</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>892, 440</value>
+  </data>
+  <data name="&gt;&gt;calcButtonRBrack.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="tabPageGen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="&gt;&gt;calcButton7.Name" xml:space="preserve">
+    <value>calcButton7</value>
+  </data>
+  <data name="GenProgressIndicator.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="calcButton4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="设置配置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="skinButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>900, 500</value>
+  </data>
+  <data name="calcButtonDelete.Text" xml:space="preserve">
+    <value>←</value>
+  </data>
+  <data name="calcButtonAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;skinButton1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="calcTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 38</value>
+  </data>
+  <data name="DisGradeBox.SkinTxt.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="ExeAnsTextBox.SkinTxt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;skinLabel1.Name" xml:space="preserve">
+    <value>skinLabel1</value>
+  </data>
+  <data name="&gt;&gt;GenButton.Name" xml:space="preserve">
+    <value>GenButton</value>
+  </data>
+  <data name="calcButtonQuestion.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="语言ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="calcButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="ExeAnsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;AnswerButton.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AnswerText.Parent" xml:space="preserve">
+    <value>tabPageCheck</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="skinLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="&gt;&gt;ExeAnsTextBox.Parent" xml:space="preserve">
+    <value>PanelGen</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="calcButtonLBrack.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tabPageGen.Name" xml:space="preserve">
+    <value>tabPageGen</value>
+  </data>
+  <data name="rtfRichTextBox1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="calcButtonDelete.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabPageCalc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;skinLabel1.Parent" xml:space="preserve">
+    <value>PanelRandom</value>
+  </data>
+  <data name="AnswerButton.Text" xml:space="preserve">
+    <value>导入答案文件</value>
+  </data>
+  <data name="导入配置设置ToolStripMenuItem.Text" xml:space="preserve">
+    <value>自动导入配置</value>
+  </data>
+  <data name="&gt;&gt;calcButton3.Parent" xml:space="preserve">
+    <value>tabPageCalc</value>
+  </data>
+  <data name="&gt;&gt;skinLabel2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinLabel, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinButton3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="calcButton9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="更改路径ToolStripMenuItem.Text" xml:space="preserve">
+    <value>更改路径</value>
+  </data>
+  <data name="GenPage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calcButtonQuote.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="更改路径ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="&gt;&gt;ExeAnsTextBox.Name" xml:space="preserve">
+    <value>ExeAnsTextBox</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;skinTextBox1.Name" xml:space="preserve">
+    <value>skinTextBox1</value>
+  </data>
+  <data name="calcButton0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageGen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>884, 407</value>
+  </data>
+  <data name="calcButton0.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="AnswerText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 32</value>
+  </data>
+  <data name="&gt;&gt;calcButtonLBrack.Name" xml:space="preserve">
+    <value>calcButtonLBrack</value>
+  </data>
+  <data name="&gt;&gt;calcButtonDelete.Name" xml:space="preserve">
+    <value>calcButtonDelete</value>
+  </data>
+  <data name="skinTextBox1.SkinTxt.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="skinLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tabPageCheck.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;ExeAnsTextBox.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinTextBox, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;开始ToolStripMenuItem.Name" xml:space="preserve">
+    <value>开始ToolStripMenuItem</value>
+  </data>
+  <data name="calcButtonLBrack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 251</value>
+  </data>
+  <data name="calcButtonDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="&gt;&gt;abortButton.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=15.3.10.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;calcButtonLBrack.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="calcButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="skinButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 32</value>
+  </data>
+  <data name="calcButton1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="skinLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="abortButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 287</value>
+  </data>
+  <data name="calcButtonSub.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="abortButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="calcButtonClean.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="calcTextBox.SkinTxt.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="skinMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>892, 24</value>
+  </data>
+  <metadata name="GradeFolderDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>397, 31</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>557, 34</value>
+  </metadata>
+  <metadata name="skinToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>136, 25</value>
+  </metadata>
+  <metadata name="skinMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>253, 31</value>
+  </metadata>
 </root>

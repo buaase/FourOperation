@@ -44,6 +44,14 @@ namespace WindowsFormsApplication2
             this.AnswerButton = new CCWin.SkinControl.SkinButton();
             this.tabPageGen = new System.Windows.Forms.TabPage();
             this.GenPage = new CCWin.SkinControl.SkinPanel();
+            this.PanelGen = new System.Windows.Forms.Panel();
+            this.PanelRandom = new System.Windows.Forms.Panel();
+            this.skinLabel2 = new CCWin.SkinControl.SkinLabel();
+            this.skinButton4 = new CCWin.SkinControl.SkinButton();
+            this.skinButton3 = new CCWin.SkinControl.SkinButton();
+            this.skinPictureBox1 = new CCWin.SkinControl.SkinPictureBox();
+            this.skinTextBox1 = new CCWin.SkinControl.SkinTextBox();
+            this.skinLabel1 = new CCWin.SkinControl.SkinLabel();
             this.PageSet = new System.Windows.Forms.TabControl();
             this.tabPageCalc = new System.Windows.Forms.TabPage();
             this.lastCalcBox = new CCWin.SkinControl.SkinLabel();
@@ -70,13 +78,6 @@ namespace WindowsFormsApplication2
             this.calcButton9 = new CCWin.SkinControl.SkinButton();
             this.calcButton8 = new CCWin.SkinControl.SkinButton();
             this.calcButton7 = new CCWin.SkinControl.SkinButton();
-            this.GradeFolderDialog = new System.Windows.Forms.FolderBrowserDialog();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.ExeAnsTextBox = new CCWin.SkinControl.SkinTextBox();
-            this.GenProgressIndicator = new CCWin.SkinControl.SkinProgressIndicator();
-            this.GenButton = new CCWin.SkinControl.SkinButton();
-            this.skinButton2 = new CCWin.SkinControl.SkinButton();
             this.skinMenuStrip1 = new CCWin.SkinControl.SkinMenuStrip();
             this.开始ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.更改路径ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -88,25 +89,24 @@ namespace WindowsFormsApplication2
             this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.语言ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.中文ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.한국어ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.skinLabel1 = new CCWin.SkinControl.SkinLabel();
-            this.skinTextBox1 = new CCWin.SkinControl.SkinTextBox();
-            this.skinPictureBox1 = new CCWin.SkinControl.SkinPictureBox();
-            this.skinButton3 = new CCWin.SkinControl.SkinButton();
-            this.skinButton4 = new CCWin.SkinControl.SkinButton();
-            this.skinLabel2 = new CCWin.SkinControl.SkinLabel();
+            this.GradeFolderDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.GenProgressIndicator = new CCWin.SkinControl.SkinProgressIndicator();
+            this.ExeAnsTextBox = new CCWin.SkinControl.SkinTextBox();
+            this.GenButton = new CCWin.SkinControl.SkinButton();
+            this.abortButton = new CCWin.SkinControl.SkinButton();
             this.tabPageCheck.SuspendLayout();
             this.tabPageGen.SuspendLayout();
             this.GenPage.SuspendLayout();
+            this.PanelGen.SuspendLayout();
+            this.PanelRandom.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.skinPictureBox1)).BeginInit();
             this.PageSet.SuspendLayout();
             this.tabPageCalc.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.ExeAnsTextBox.SuspendLayout();
             this.skinMenuStrip1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.skinPictureBox1)).BeginInit();
+            this.ExeAnsTextBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // skinToolTip1
@@ -120,6 +120,7 @@ namespace WindowsFormsApplication2
             // 
             // tabPageCheck
             // 
+            resources.ApplyResources(this.tabPageCheck, "tabPageCheck");
             this.tabPageCheck.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tabPageCheck.Controls.Add(this.DisGradeBox);
             this.tabPageCheck.Controls.Add(this.ExeText);
@@ -127,16 +128,13 @@ namespace WindowsFormsApplication2
             this.tabPageCheck.Controls.Add(this.skinButton1);
             this.tabPageCheck.Controls.Add(this.ExeButton);
             this.tabPageCheck.Controls.Add(this.AnswerButton);
-            this.tabPageCheck.Location = new System.Drawing.Point(4, 32);
             this.tabPageCheck.Name = "tabPageCheck";
-            this.tabPageCheck.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageCheck.Size = new System.Drawing.Size(884, 404);
-            this.tabPageCheck.TabIndex = 1;
-            this.tabPageCheck.Text = "检查答案";
+            this.skinToolTip1.SetToolTip(this.tabPageCheck, resources.GetString("tabPageCheck.ToolTip"));
             this.tabPageCheck.UseVisualStyleBackColor = true;
             // 
             // DisGradeBox
             // 
+            resources.ApplyResources(this.DisGradeBox, "DisGradeBox");
             this.DisGradeBox.BackColor = System.Drawing.Color.Transparent;
             this.DisGradeBox.DownBack = null;
             this.DisGradeBox.Icon = null;
@@ -145,153 +143,265 @@ namespace WindowsFormsApplication2
             this.DisGradeBox.IsPasswordChat = '\0';
             this.DisGradeBox.IsSystemPasswordChar = false;
             this.DisGradeBox.Lines = new string[0];
-            this.DisGradeBox.Location = new System.Drawing.Point(43, 167);
-            this.DisGradeBox.Margin = new System.Windows.Forms.Padding(0);
             this.DisGradeBox.MaxLength = 32767;
-            this.DisGradeBox.MinimumSize = new System.Drawing.Size(28, 28);
             this.DisGradeBox.MouseBack = null;
             this.DisGradeBox.MouseState = CCWin.SkinClass.ControlState.Normal;
             this.DisGradeBox.Multiline = true;
             this.DisGradeBox.Name = "DisGradeBox";
             this.DisGradeBox.NormlBack = null;
-            this.DisGradeBox.Padding = new System.Windows.Forms.Padding(5);
             this.DisGradeBox.ReadOnly = false;
             this.DisGradeBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.DisGradeBox.Size = new System.Drawing.Size(812, 214);
             // 
             // 
             // 
+            this.DisGradeBox.SkinTxt.AccessibleDescription = resources.GetString("DisGradeBox.SkinTxt.AccessibleDescription");
+            this.DisGradeBox.SkinTxt.AccessibleName = resources.GetString("DisGradeBox.SkinTxt.AccessibleName");
+            this.DisGradeBox.SkinTxt.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("DisGradeBox.SkinTxt.Anchor")));
+            this.DisGradeBox.SkinTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DisGradeBox.SkinTxt.BackgroundImage")));
+            this.DisGradeBox.SkinTxt.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("DisGradeBox.SkinTxt.BackgroundImageLayout")));
             this.DisGradeBox.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.DisGradeBox.SkinTxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DisGradeBox.SkinTxt.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F);
-            this.DisGradeBox.SkinTxt.Location = new System.Drawing.Point(5, 5);
-            this.DisGradeBox.SkinTxt.Multiline = true;
+            this.DisGradeBox.SkinTxt.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("DisGradeBox.SkinTxt.Dock")));
+            this.DisGradeBox.SkinTxt.Font = ((System.Drawing.Font)(resources.GetObject("DisGradeBox.SkinTxt.Font")));
+            this.DisGradeBox.SkinTxt.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("DisGradeBox.SkinTxt.ImeMode")));
+            this.DisGradeBox.SkinTxt.Location = ((System.Drawing.Point)(resources.GetObject("DisGradeBox.SkinTxt.Location")));
+            this.DisGradeBox.SkinTxt.MaximumSize = ((System.Drawing.Size)(resources.GetObject("DisGradeBox.SkinTxt.MaximumSize")));
+            this.DisGradeBox.SkinTxt.MaxLength = ((int)(resources.GetObject("DisGradeBox.SkinTxt.MaxLength")));
+            this.DisGradeBox.SkinTxt.Multiline = ((bool)(resources.GetObject("DisGradeBox.SkinTxt.Multiline")));
             this.DisGradeBox.SkinTxt.Name = "BaseText";
-            this.DisGradeBox.SkinTxt.Size = new System.Drawing.Size(802, 204);
-            this.DisGradeBox.SkinTxt.TabIndex = 0;
+            this.DisGradeBox.SkinTxt.PasswordChar = ((char)(resources.GetObject("DisGradeBox.SkinTxt.PasswordChar")));
+            this.DisGradeBox.SkinTxt.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("DisGradeBox.SkinTxt.RightToLeft")));
+            this.DisGradeBox.SkinTxt.ScrollBars = ((System.Windows.Forms.ScrollBars)(resources.GetObject("DisGradeBox.SkinTxt.ScrollBars")));
+            this.DisGradeBox.SkinTxt.Size = ((System.Drawing.Size)(resources.GetObject("DisGradeBox.SkinTxt.Size")));
+            this.DisGradeBox.SkinTxt.TabIndex = ((int)(resources.GetObject("DisGradeBox.SkinTxt.TabIndex")));
+            this.DisGradeBox.SkinTxt.TextAlign = ((System.Windows.Forms.HorizontalAlignment)(resources.GetObject("DisGradeBox.SkinTxt.TextAlign")));
             this.DisGradeBox.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.DisGradeBox.SkinTxt.WaterText = "";
-            this.DisGradeBox.TabIndex = 9;
+            this.DisGradeBox.SkinTxt.WordWrap = ((bool)(resources.GetObject("DisGradeBox.SkinTxt.WordWrap")));
             this.DisGradeBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.skinToolTip1.SetToolTip(this.DisGradeBox, resources.GetString("DisGradeBox.ToolTip"));
             this.DisGradeBox.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.DisGradeBox.WaterText = "";
             this.DisGradeBox.WordWrap = true;
             // 
             // ExeText
             // 
+            resources.ApplyResources(this.ExeText, "ExeText");
             this.ExeText.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.FileSystem;
-            this.ExeText.Location = new System.Drawing.Point(179, 88);
-            this.ExeText.Multiline = true;
             this.ExeText.Name = "ExeText";
             this.ExeText.ReadOnly = true;
-            this.ExeText.Size = new System.Drawing.Size(227, 37);
-            this.ExeText.TabIndex = 3;
-            this.ExeText.WordWrap = false;
+            this.skinToolTip1.SetToolTip(this.ExeText, resources.GetString("ExeText.ToolTip"));
             // 
             // AnswerText
             // 
+            resources.ApplyResources(this.AnswerText, "AnswerText");
             this.AnswerText.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.FileSystem;
-            this.AnswerText.Location = new System.Drawing.Point(179, 32);
-            this.AnswerText.Multiline = true;
             this.AnswerText.Name = "AnswerText";
             this.AnswerText.ReadOnly = true;
-            this.AnswerText.Size = new System.Drawing.Size(227, 37);
-            this.AnswerText.TabIndex = 1;
-            this.AnswerText.WordWrap = false;
+            this.skinToolTip1.SetToolTip(this.AnswerText, resources.GetString("AnswerText.ToolTip"));
             // 
             // skinButton1
             // 
+            resources.ApplyResources(this.skinButton1, "skinButton1");
             this.skinButton1.BackColor = System.Drawing.Color.Transparent;
             this.skinButton1.BaseColor = System.Drawing.Color.OrangeRed;
             this.skinButton1.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinButton1.DownBack = null;
             this.skinButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.skinButton1.Location = new System.Drawing.Point(743, 32);
             this.skinButton1.MouseBack = null;
             this.skinButton1.Name = "skinButton1";
             this.skinButton1.NormlBack = null;
-            this.skinButton1.Size = new System.Drawing.Size(112, 93);
-            this.skinButton1.TabIndex = 8;
-            this.skinButton1.Text = "开始检查";
+            this.skinToolTip1.SetToolTip(this.skinButton1, resources.GetString("skinButton1.ToolTip"));
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click_1);
             // 
             // ExeButton
             // 
+            resources.ApplyResources(this.ExeButton, "ExeButton");
             this.ExeButton.BackColor = System.Drawing.Color.Transparent;
             this.ExeButton.BaseColor = System.Drawing.Color.OrangeRed;
             this.ExeButton.ControlState = CCWin.SkinClass.ControlState.Hover;
             this.ExeButton.DownBack = null;
             this.ExeButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ExeButton.Location = new System.Drawing.Point(43, 88);
             this.ExeButton.MouseBack = null;
             this.ExeButton.Name = "ExeButton";
             this.ExeButton.NormlBack = null;
-            this.ExeButton.Size = new System.Drawing.Size(130, 37);
-            this.ExeButton.TabIndex = 7;
-            this.ExeButton.Text = "导入测验题目";
+            this.skinToolTip1.SetToolTip(this.ExeButton, resources.GetString("ExeButton.ToolTip"));
             this.ExeButton.UseVisualStyleBackColor = false;
             this.ExeButton.Click += new System.EventHandler(this.ExeButton_Click);
             // 
             // AnswerButton
             // 
+            resources.ApplyResources(this.AnswerButton, "AnswerButton");
             this.AnswerButton.BackColor = System.Drawing.Color.Transparent;
             this.AnswerButton.BaseColor = System.Drawing.Color.OrangeRed;
             this.AnswerButton.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.AnswerButton.DownBack = null;
             this.AnswerButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.AnswerButton.Location = new System.Drawing.Point(43, 32);
             this.AnswerButton.MouseBack = null;
             this.AnswerButton.Name = "AnswerButton";
             this.AnswerButton.NormlBack = null;
-            this.AnswerButton.Size = new System.Drawing.Size(130, 37);
-            this.AnswerButton.TabIndex = 6;
-            this.AnswerButton.Text = "导入答案文件";
+            this.skinToolTip1.SetToolTip(this.AnswerButton, resources.GetString("AnswerButton.ToolTip"));
             this.AnswerButton.UseVisualStyleBackColor = false;
             this.AnswerButton.Click += new System.EventHandler(this.AnswerButton_Click);
             // 
             // tabPageGen
             // 
+            resources.ApplyResources(this.tabPageGen, "tabPageGen");
             this.tabPageGen.Controls.Add(this.GenPage);
-            this.tabPageGen.Location = new System.Drawing.Point(4, 32);
             this.tabPageGen.Name = "tabPageGen";
-            this.tabPageGen.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageGen.Size = new System.Drawing.Size(884, 404);
-            this.tabPageGen.TabIndex = 0;
-            this.tabPageGen.Text = "生成表达式";
+            this.skinToolTip1.SetToolTip(this.tabPageGen, resources.GetString("tabPageGen.ToolTip"));
             this.tabPageGen.UseVisualStyleBackColor = true;
             // 
             // GenPage
             // 
+            resources.ApplyResources(this.GenPage, "GenPage");
             this.GenPage.BackColor = System.Drawing.Color.Transparent;
-            this.GenPage.Controls.Add(this.panel1);
+            this.GenPage.Controls.Add(this.PanelGen);
             this.GenPage.ControlState = CCWin.SkinClass.ControlState.Normal;
-            this.GenPage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.GenPage.DownBack = null;
-            this.GenPage.Location = new System.Drawing.Point(3, 3);
             this.GenPage.MouseBack = null;
             this.GenPage.Name = "GenPage";
             this.GenPage.NormlBack = null;
-            this.GenPage.Size = new System.Drawing.Size(878, 398);
-            this.GenPage.TabIndex = 0;
+            this.skinToolTip1.SetToolTip(this.GenPage, resources.GetString("GenPage.ToolTip"));
+            // 
+            // PanelGen
+            // 
+            resources.ApplyResources(this.PanelGen, "PanelGen");
+            this.PanelGen.Controls.Add(this.ExeAnsTextBox);
+            this.PanelGen.Controls.Add(this.GenButton);
+            this.PanelGen.Controls.Add(this.abortButton);
+            this.PanelGen.Controls.Add(this.PanelRandom);
+            this.PanelGen.Name = "PanelGen";
+            this.skinToolTip1.SetToolTip(this.PanelGen, resources.GetString("PanelGen.ToolTip"));
+            // 
+            // PanelRandom
+            // 
+            resources.ApplyResources(this.PanelRandom, "PanelRandom");
+            this.PanelRandom.Controls.Add(this.skinLabel2);
+            this.PanelRandom.Controls.Add(this.skinButton4);
+            this.PanelRandom.Controls.Add(this.skinButton3);
+            this.PanelRandom.Controls.Add(this.skinPictureBox1);
+            this.PanelRandom.Controls.Add(this.skinTextBox1);
+            this.PanelRandom.Controls.Add(this.skinLabel1);
+            this.PanelRandom.Name = "PanelRandom";
+            this.skinToolTip1.SetToolTip(this.PanelRandom, resources.GetString("PanelRandom.ToolTip"));
+            // 
+            // skinLabel2
+            // 
+            resources.ApplyResources(this.skinLabel2, "skinLabel2");
+            this.skinLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.skinLabel2.BorderColor = System.Drawing.Color.White;
+            this.skinLabel2.Name = "skinLabel2";
+            this.skinToolTip1.SetToolTip(this.skinLabel2, resources.GetString("skinLabel2.ToolTip"));
+            // 
+            // skinButton4
+            // 
+            resources.ApplyResources(this.skinButton4, "skinButton4");
+            this.skinButton4.BackColor = System.Drawing.Color.Transparent;
+            this.skinButton4.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButton4.DownBack = null;
+            this.skinButton4.MouseBack = null;
+            this.skinButton4.Name = "skinButton4";
+            this.skinButton4.NormlBack = null;
+            this.skinToolTip1.SetToolTip(this.skinButton4, resources.GetString("skinButton4.ToolTip"));
+            this.skinButton4.UseVisualStyleBackColor = false;
+            // 
+            // skinButton3
+            // 
+            resources.ApplyResources(this.skinButton3, "skinButton3");
+            this.skinButton3.BackColor = System.Drawing.Color.Transparent;
+            this.skinButton3.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButton3.DownBack = null;
+            this.skinButton3.MouseBack = null;
+            this.skinButton3.Name = "skinButton3";
+            this.skinButton3.NormlBack = null;
+            this.skinToolTip1.SetToolTip(this.skinButton3, resources.GetString("skinButton3.ToolTip"));
+            this.skinButton3.UseVisualStyleBackColor = false;
+            // 
+            // skinPictureBox1
+            // 
+            resources.ApplyResources(this.skinPictureBox1, "skinPictureBox1");
+            this.skinPictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.skinPictureBox1.Image = global::WindowsFormsApplication2.Properties.Resources.success;
+            this.skinPictureBox1.Name = "skinPictureBox1";
+            this.skinPictureBox1.TabStop = false;
+            this.skinToolTip1.SetToolTip(this.skinPictureBox1, resources.GetString("skinPictureBox1.ToolTip"));
+            // 
+            // skinTextBox1
+            // 
+            resources.ApplyResources(this.skinTextBox1, "skinTextBox1");
+            this.skinTextBox1.BackColor = System.Drawing.Color.Transparent;
+            this.skinTextBox1.DownBack = null;
+            this.skinTextBox1.Icon = null;
+            this.skinTextBox1.IconIsButton = false;
+            this.skinTextBox1.IconMouseState = CCWin.SkinClass.ControlState.Normal;
+            this.skinTextBox1.IsPasswordChat = '\0';
+            this.skinTextBox1.IsSystemPasswordChar = false;
+            this.skinTextBox1.Lines = new string[] {
+        "skinTextBox1"};
+            this.skinTextBox1.MaxLength = 32767;
+            this.skinTextBox1.MouseBack = null;
+            this.skinTextBox1.MouseState = CCWin.SkinClass.ControlState.Normal;
+            this.skinTextBox1.Multiline = true;
+            this.skinTextBox1.Name = "skinTextBox1";
+            this.skinTextBox1.NormlBack = null;
+            this.skinTextBox1.ReadOnly = false;
+            this.skinTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            // 
+            // 
+            // 
+            this.skinTextBox1.SkinTxt.AccessibleDescription = resources.GetString("skinTextBox1.SkinTxt.AccessibleDescription");
+            this.skinTextBox1.SkinTxt.AccessibleName = resources.GetString("skinTextBox1.SkinTxt.AccessibleName");
+            this.skinTextBox1.SkinTxt.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("skinTextBox1.SkinTxt.Anchor")));
+            this.skinTextBox1.SkinTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("skinTextBox1.SkinTxt.BackgroundImage")));
+            this.skinTextBox1.SkinTxt.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("skinTextBox1.SkinTxt.BackgroundImageLayout")));
+            this.skinTextBox1.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.skinTextBox1.SkinTxt.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("skinTextBox1.SkinTxt.Dock")));
+            this.skinTextBox1.SkinTxt.Font = ((System.Drawing.Font)(resources.GetObject("skinTextBox1.SkinTxt.Font")));
+            this.skinTextBox1.SkinTxt.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("skinTextBox1.SkinTxt.ImeMode")));
+            this.skinTextBox1.SkinTxt.Location = ((System.Drawing.Point)(resources.GetObject("skinTextBox1.SkinTxt.Location")));
+            this.skinTextBox1.SkinTxt.MaximumSize = ((System.Drawing.Size)(resources.GetObject("skinTextBox1.SkinTxt.MaximumSize")));
+            this.skinTextBox1.SkinTxt.MaxLength = ((int)(resources.GetObject("skinTextBox1.SkinTxt.MaxLength")));
+            this.skinTextBox1.SkinTxt.Multiline = ((bool)(resources.GetObject("skinTextBox1.SkinTxt.Multiline")));
+            this.skinTextBox1.SkinTxt.Name = "BaseText";
+            this.skinTextBox1.SkinTxt.PasswordChar = ((char)(resources.GetObject("skinTextBox1.SkinTxt.PasswordChar")));
+            this.skinTextBox1.SkinTxt.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("skinTextBox1.SkinTxt.RightToLeft")));
+            this.skinTextBox1.SkinTxt.ScrollBars = ((System.Windows.Forms.ScrollBars)(resources.GetObject("skinTextBox1.SkinTxt.ScrollBars")));
+            this.skinTextBox1.SkinTxt.Size = ((System.Drawing.Size)(resources.GetObject("skinTextBox1.SkinTxt.Size")));
+            this.skinTextBox1.SkinTxt.TabIndex = ((int)(resources.GetObject("skinTextBox1.SkinTxt.TabIndex")));
+            this.skinTextBox1.SkinTxt.Text = resources.GetString("skinTextBox1.SkinTxt.Text");
+            this.skinTextBox1.SkinTxt.TextAlign = ((System.Windows.Forms.HorizontalAlignment)(resources.GetObject("skinTextBox1.SkinTxt.TextAlign")));
+            this.skinTextBox1.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.skinTextBox1.SkinTxt.WaterText = "";
+            this.skinTextBox1.SkinTxt.WordWrap = ((bool)(resources.GetObject("skinTextBox1.SkinTxt.WordWrap")));
+            this.skinTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.skinToolTip1.SetToolTip(this.skinTextBox1, resources.GetString("skinTextBox1.ToolTip"));
+            this.skinTextBox1.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.skinTextBox1.WaterText = "";
+            this.skinTextBox1.WordWrap = true;
+            // 
+            // skinLabel1
+            // 
+            resources.ApplyResources(this.skinLabel1, "skinLabel1");
+            this.skinLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.skinLabel1.BorderColor = System.Drawing.Color.White;
+            this.skinLabel1.Name = "skinLabel1";
+            this.skinToolTip1.SetToolTip(this.skinLabel1, resources.GetString("skinLabel1.ToolTip"));
             // 
             // PageSet
             // 
+            resources.ApplyResources(this.PageSet, "PageSet");
             this.PageSet.Controls.Add(this.tabPageGen);
             this.PageSet.Controls.Add(this.tabPageCheck);
             this.PageSet.Controls.Add(this.tabPageCalc);
             this.PageSet.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PageSet.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PageSet.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.PageSet.Location = new System.Drawing.Point(4, 56);
-            this.PageSet.Margin = new System.Windows.Forms.Padding(0);
             this.PageSet.Name = "PageSet";
             this.PageSet.SelectedIndex = 0;
-            this.PageSet.Size = new System.Drawing.Size(892, 440);
-            this.PageSet.TabIndex = 0;
+            this.skinToolTip1.SetToolTip(this.PageSet, resources.GetString("PageSet.ToolTip"));
             // 
             // tabPageCalc
             // 
+            resources.ApplyResources(this.tabPageCalc, "tabPageCalc");
             this.tabPageCalc.Controls.Add(this.lastCalcBox);
             this.tabPageCalc.Controls.Add(this.rtfRichTextBox1);
             this.tabPageCalc.Controls.Add(this.calcTextBox);
@@ -316,43 +426,34 @@ namespace WindowsFormsApplication2
             this.tabPageCalc.Controls.Add(this.calcButton9);
             this.tabPageCalc.Controls.Add(this.calcButton8);
             this.tabPageCalc.Controls.Add(this.calcButton7);
-            this.tabPageCalc.Location = new System.Drawing.Point(4, 32);
             this.tabPageCalc.Name = "tabPageCalc";
-            this.tabPageCalc.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageCalc.Size = new System.Drawing.Size(884, 404);
-            this.tabPageCalc.TabIndex = 2;
-            this.tabPageCalc.Text = "计算器";
+            this.skinToolTip1.SetToolTip(this.tabPageCalc, resources.GetString("tabPageCalc.ToolTip"));
             this.tabPageCalc.UseVisualStyleBackColor = true;
             // 
             // lastCalcBox
             // 
+            resources.ApplyResources(this.lastCalcBox, "lastCalcBox");
             this.lastCalcBox.BackColor = System.Drawing.Color.Transparent;
             this.lastCalcBox.BorderColor = System.Drawing.Color.White;
             this.lastCalcBox.BorderSize = 0;
-            this.lastCalcBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lastCalcBox.Location = new System.Drawing.Point(124, 29);
             this.lastCalcBox.Name = "lastCalcBox";
-            this.lastCalcBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastCalcBox.Size = new System.Drawing.Size(392, 27);
-            this.lastCalcBox.TabIndex = 2;
-            this.lastCalcBox.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.skinToolTip1.SetToolTip(this.lastCalcBox, resources.GetString("lastCalcBox.ToolTip"));
             // 
             // rtfRichTextBox1
             // 
+            resources.ApplyResources(this.rtfRichTextBox1, "rtfRichTextBox1");
+            this.rtfRichTextBox1.BackColor = System.Drawing.Color.White;
             this.rtfRichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtfRichTextBox1.ForeColor = System.Drawing.Color.DarkGreen;
             this.rtfRichTextBox1.HiglightColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.White;
-            this.rtfRichTextBox1.Location = new System.Drawing.Point(562, 36);
             this.rtfRichTextBox1.Name = "rtfRichTextBox1";
             this.rtfRichTextBox1.ReadOnly = true;
-            this.rtfRichTextBox1.Size = new System.Drawing.Size(233, 341);
-            this.rtfRichTextBox1.TabIndex = 22;
-            this.rtfRichTextBox1.Text = "计算器支持键盘快捷键输入，以下为快捷键映射说明：\nShift + \'8\' = \'×\'\nShift + \'/\' = \'÷\'\nShift + \'9\' = \'(\'\nSh" +
-    "ift + \'0\' = \')\'\nShift + \'=\' = \'+\'\nShift + \'\"\' = \' \' \'\nEnter = \'=\'\n其余均为键盘默认单键控制";
             this.rtfRichTextBox1.TextColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.Black;
+            this.skinToolTip1.SetToolTip(this.rtfRichTextBox1, resources.GetString("rtfRichTextBox1.ToolTip"));
             // 
             // calcTextBox
             // 
+            resources.ApplyResources(this.calcTextBox, "calcTextBox");
             this.calcTextBox.BackColor = System.Drawing.Color.Transparent;
             this.calcTextBox.DownBack = null;
             this.calcTextBox.Icon = null;
@@ -361,484 +462,344 @@ namespace WindowsFormsApplication2
             this.calcTextBox.IsPasswordChat = '\0';
             this.calcTextBox.IsSystemPasswordChar = false;
             this.calcTextBox.Lines = new string[0];
-            this.calcTextBox.Location = new System.Drawing.Point(130, 63);
-            this.calcTextBox.Margin = new System.Windows.Forms.Padding(0);
             this.calcTextBox.MaxLength = 32767;
-            this.calcTextBox.MinimumSize = new System.Drawing.Size(28, 28);
             this.calcTextBox.MouseBack = null;
             this.calcTextBox.MouseState = CCWin.SkinClass.ControlState.Normal;
             this.calcTextBox.Multiline = true;
             this.calcTextBox.Name = "calcTextBox";
             this.calcTextBox.NormlBack = null;
-            this.calcTextBox.Padding = new System.Windows.Forms.Padding(5);
             this.calcTextBox.ReadOnly = true;
-            this.calcTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.calcTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.calcTextBox.Size = new System.Drawing.Size(386, 39);
             // 
             // 
             // 
+            this.calcTextBox.SkinTxt.AccessibleDescription = resources.GetString("calcTextBox.SkinTxt.AccessibleDescription");
+            this.calcTextBox.SkinTxt.AccessibleName = resources.GetString("calcTextBox.SkinTxt.AccessibleName");
+            this.calcTextBox.SkinTxt.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("calcTextBox.SkinTxt.Anchor")));
+            this.calcTextBox.SkinTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("calcTextBox.SkinTxt.BackgroundImage")));
+            this.calcTextBox.SkinTxt.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("calcTextBox.SkinTxt.BackgroundImageLayout")));
             this.calcTextBox.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.calcTextBox.SkinTxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.calcTextBox.SkinTxt.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F);
-            this.calcTextBox.SkinTxt.Location = new System.Drawing.Point(5, 5);
-            this.calcTextBox.SkinTxt.Multiline = true;
+            this.calcTextBox.SkinTxt.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("calcTextBox.SkinTxt.Dock")));
+            this.calcTextBox.SkinTxt.Font = ((System.Drawing.Font)(resources.GetObject("calcTextBox.SkinTxt.Font")));
+            this.calcTextBox.SkinTxt.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("calcTextBox.SkinTxt.ImeMode")));
+            this.calcTextBox.SkinTxt.Location = ((System.Drawing.Point)(resources.GetObject("calcTextBox.SkinTxt.Location")));
+            this.calcTextBox.SkinTxt.MaximumSize = ((System.Drawing.Size)(resources.GetObject("calcTextBox.SkinTxt.MaximumSize")));
+            this.calcTextBox.SkinTxt.MaxLength = ((int)(resources.GetObject("calcTextBox.SkinTxt.MaxLength")));
+            this.calcTextBox.SkinTxt.Multiline = ((bool)(resources.GetObject("calcTextBox.SkinTxt.Multiline")));
             this.calcTextBox.SkinTxt.Name = "BaseText";
+            this.calcTextBox.SkinTxt.PasswordChar = ((char)(resources.GetObject("calcTextBox.SkinTxt.PasswordChar")));
             this.calcTextBox.SkinTxt.ReadOnly = true;
-            this.calcTextBox.SkinTxt.Size = new System.Drawing.Size(376, 29);
-            this.calcTextBox.SkinTxt.TabIndex = 0;
-            this.calcTextBox.SkinTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.calcTextBox.SkinTxt.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("calcTextBox.SkinTxt.RightToLeft")));
+            this.calcTextBox.SkinTxt.ScrollBars = ((System.Windows.Forms.ScrollBars)(resources.GetObject("calcTextBox.SkinTxt.ScrollBars")));
+            this.calcTextBox.SkinTxt.Size = ((System.Drawing.Size)(resources.GetObject("calcTextBox.SkinTxt.Size")));
+            this.calcTextBox.SkinTxt.TabIndex = ((int)(resources.GetObject("calcTextBox.SkinTxt.TabIndex")));
+            this.calcTextBox.SkinTxt.TextAlign = ((System.Windows.Forms.HorizontalAlignment)(resources.GetObject("calcTextBox.SkinTxt.TextAlign")));
             this.calcTextBox.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.calcTextBox.SkinTxt.WaterText = "";
-            this.calcTextBox.SkinTxt.WordWrap = false;
-            this.calcTextBox.TabIndex = 21;
+            this.calcTextBox.SkinTxt.WordWrap = ((bool)(resources.GetObject("calcTextBox.SkinTxt.WordWrap")));
             this.calcTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.skinToolTip1.SetToolTip(this.calcTextBox, resources.GetString("calcTextBox.ToolTip"));
             this.calcTextBox.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.calcTextBox.WaterText = "";
             this.calcTextBox.WordWrap = false;
             // 
             // calcButtonDelete
             // 
+            resources.ApplyResources(this.calcButtonDelete, "calcButtonDelete");
             this.calcButtonDelete.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonDelete.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonDelete.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonDelete.DownBack = null;
-            this.calcButtonDelete.Location = new System.Drawing.Point(388, 185);
             this.calcButtonDelete.MouseBack = null;
             this.calcButtonDelete.Name = "calcButtonDelete";
             this.calcButtonDelete.NormlBack = null;
-            this.calcButtonDelete.Size = new System.Drawing.Size(55, 55);
-            this.calcButtonDelete.TabIndex = 20;
-            this.calcButtonDelete.Text = "←";
+            this.skinToolTip1.SetToolTip(this.calcButtonDelete, resources.GetString("calcButtonDelete.ToolTip"));
             this.calcButtonDelete.UseVisualStyleBackColor = false;
             this.calcButtonDelete.Click += new System.EventHandler(this.calcButtonDelete_Click);
             // 
             // calcButtonRBrack
             // 
+            resources.ApplyResources(this.calcButtonRBrack, "calcButtonRBrack");
             this.calcButtonRBrack.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonRBrack.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonRBrack.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonRBrack.DownBack = null;
-            this.calcButtonRBrack.Location = new System.Drawing.Point(388, 317);
             this.calcButtonRBrack.MouseBack = null;
             this.calcButtonRBrack.Name = "calcButtonRBrack";
             this.calcButtonRBrack.NormlBack = null;
-            this.calcButtonRBrack.Size = new System.Drawing.Size(55, 55);
-            this.calcButtonRBrack.TabIndex = 19;
-            this.calcButtonRBrack.Text = ")";
+            this.skinToolTip1.SetToolTip(this.calcButtonRBrack, resources.GetString("calcButtonRBrack.ToolTip"));
             this.calcButtonRBrack.UseVisualStyleBackColor = false;
             this.calcButtonRBrack.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButtonLBrack
             // 
+            resources.ApplyResources(this.calcButtonLBrack, "calcButtonLBrack");
             this.calcButtonLBrack.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonLBrack.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonLBrack.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonLBrack.DownBack = null;
-            this.calcButtonLBrack.Location = new System.Drawing.Point(388, 251);
             this.calcButtonLBrack.MouseBack = null;
             this.calcButtonLBrack.Name = "calcButtonLBrack";
             this.calcButtonLBrack.NormlBack = null;
-            this.calcButtonLBrack.Size = new System.Drawing.Size(55, 55);
-            this.calcButtonLBrack.TabIndex = 18;
-            this.calcButtonLBrack.Text = "(";
+            this.skinToolTip1.SetToolTip(this.calcButtonLBrack, resources.GetString("calcButtonLBrack.ToolTip"));
             this.calcButtonLBrack.UseVisualStyleBackColor = false;
             this.calcButtonLBrack.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButtonResult
             // 
+            resources.ApplyResources(this.calcButtonResult, "calcButtonResult");
             this.calcButtonResult.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonResult.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonResult.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonResult.DownBack = null;
-            this.calcButtonResult.Location = new System.Drawing.Point(456, 185);
             this.calcButtonResult.MouseBack = null;
             this.calcButtonResult.Name = "calcButtonResult";
             this.calcButtonResult.NormlBack = null;
-            this.calcButtonResult.Size = new System.Drawing.Size(60, 192);
-            this.calcButtonResult.TabIndex = 17;
-            this.calcButtonResult.Text = "=";
+            this.skinToolTip1.SetToolTip(this.calcButtonResult, resources.GetString("calcButtonResult.ToolTip"));
             this.calcButtonResult.UseVisualStyleBackColor = false;
             this.calcButtonResult.Click += new System.EventHandler(this.calcButtonResult_Click);
             // 
             // calcButtonClean
             // 
+            resources.ApplyResources(this.calcButtonClean, "calcButtonClean");
             this.calcButtonClean.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonClean.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonClean.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonClean.DownBack = null;
-            this.calcButtonClean.Location = new System.Drawing.Point(388, 119);
             this.calcButtonClean.MouseBack = null;
             this.calcButtonClean.Name = "calcButtonClean";
             this.calcButtonClean.NormlBack = null;
-            this.calcButtonClean.Size = new System.Drawing.Size(128, 55);
-            this.calcButtonClean.TabIndex = 16;
-            this.calcButtonClean.Text = "C";
+            this.skinToolTip1.SetToolTip(this.calcButtonClean, resources.GetString("calcButtonClean.ToolTip"));
             this.calcButtonClean.UseVisualStyleBackColor = false;
             this.calcButtonClean.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButtonSub
             // 
+            resources.ApplyResources(this.calcButtonSub, "calcButtonSub");
             this.calcButtonSub.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonSub.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonSub.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonSub.DownBack = null;
-            this.calcButtonSub.Location = new System.Drawing.Point(324, 317);
             this.calcButtonSub.MouseBack = null;
             this.calcButtonSub.Name = "calcButtonSub";
             this.calcButtonSub.NormlBack = null;
-            this.calcButtonSub.Size = new System.Drawing.Size(55, 55);
-            this.calcButtonSub.TabIndex = 15;
-            this.calcButtonSub.Text = "-";
+            this.skinToolTip1.SetToolTip(this.calcButtonSub, resources.GetString("calcButtonSub.ToolTip"));
             this.calcButtonSub.UseVisualStyleBackColor = false;
             this.calcButtonSub.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButtonAdd
             // 
+            resources.ApplyResources(this.calcButtonAdd, "calcButtonAdd");
             this.calcButtonAdd.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonAdd.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonAdd.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonAdd.DownBack = null;
-            this.calcButtonAdd.Location = new System.Drawing.Point(324, 251);
             this.calcButtonAdd.MouseBack = null;
             this.calcButtonAdd.Name = "calcButtonAdd";
             this.calcButtonAdd.NormlBack = null;
-            this.calcButtonAdd.Size = new System.Drawing.Size(55, 55);
-            this.calcButtonAdd.TabIndex = 14;
-            this.calcButtonAdd.Text = "+";
+            this.skinToolTip1.SetToolTip(this.calcButtonAdd, resources.GetString("calcButtonAdd.ToolTip"));
             this.calcButtonAdd.UseVisualStyleBackColor = false;
             this.calcButtonAdd.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButtonMult
             // 
+            resources.ApplyResources(this.calcButtonMult, "calcButtonMult");
             this.calcButtonMult.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonMult.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonMult.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonMult.DownBack = null;
-            this.calcButtonMult.Location = new System.Drawing.Point(324, 185);
             this.calcButtonMult.MouseBack = null;
             this.calcButtonMult.Name = "calcButtonMult";
             this.calcButtonMult.NormlBack = null;
-            this.calcButtonMult.Size = new System.Drawing.Size(55, 55);
-            this.calcButtonMult.TabIndex = 13;
-            this.calcButtonMult.Text = "×";
+            this.skinToolTip1.SetToolTip(this.calcButtonMult, resources.GetString("calcButtonMult.ToolTip"));
             this.calcButtonMult.UseVisualStyleBackColor = false;
             this.calcButtonMult.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButtonDiv
             // 
+            resources.ApplyResources(this.calcButtonDiv, "calcButtonDiv");
             this.calcButtonDiv.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonDiv.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonDiv.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonDiv.DownBack = null;
-            this.calcButtonDiv.Location = new System.Drawing.Point(324, 119);
             this.calcButtonDiv.MouseBack = null;
             this.calcButtonDiv.Name = "calcButtonDiv";
             this.calcButtonDiv.NormlBack = null;
-            this.calcButtonDiv.Size = new System.Drawing.Size(55, 55);
-            this.calcButtonDiv.TabIndex = 12;
-            this.calcButtonDiv.Text = "÷";
+            this.skinToolTip1.SetToolTip(this.calcButtonDiv, resources.GetString("calcButtonDiv.ToolTip"));
             this.calcButtonDiv.UseVisualStyleBackColor = false;
             this.calcButtonDiv.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButtonQuestion
             // 
+            resources.ApplyResources(this.calcButtonQuestion, "calcButtonQuestion");
             this.calcButtonQuestion.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonQuestion.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonQuestion.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonQuestion.DownBack = null;
-            this.calcButtonQuestion.Location = new System.Drawing.Point(258, 317);
             this.calcButtonQuestion.MouseBack = null;
             this.calcButtonQuestion.Name = "calcButtonQuestion";
             this.calcButtonQuestion.NormlBack = null;
-            this.calcButtonQuestion.Size = new System.Drawing.Size(55, 55);
-            this.calcButtonQuestion.TabIndex = 11;
-            this.calcButtonQuestion.Text = "/";
+            this.skinToolTip1.SetToolTip(this.calcButtonQuestion, resources.GetString("calcButtonQuestion.ToolTip"));
             this.calcButtonQuestion.UseVisualStyleBackColor = false;
             this.calcButtonQuestion.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButtonQuote
             // 
+            resources.ApplyResources(this.calcButtonQuote, "calcButtonQuote");
             this.calcButtonQuote.BackColor = System.Drawing.Color.Transparent;
             this.calcButtonQuote.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButtonQuote.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButtonQuote.DownBack = null;
-            this.calcButtonQuote.Location = new System.Drawing.Point(194, 317);
             this.calcButtonQuote.MouseBack = null;
             this.calcButtonQuote.Name = "calcButtonQuote";
             this.calcButtonQuote.NormlBack = null;
-            this.calcButtonQuote.Size = new System.Drawing.Size(55, 55);
-            this.calcButtonQuote.TabIndex = 10;
-            this.calcButtonQuote.Text = "\'";
+            this.skinToolTip1.SetToolTip(this.calcButtonQuote, resources.GetString("calcButtonQuote.ToolTip"));
             this.calcButtonQuote.UseVisualStyleBackColor = false;
             this.calcButtonQuote.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButton0
             // 
+            resources.ApplyResources(this.calcButton0, "calcButton0");
             this.calcButton0.BackColor = System.Drawing.Color.Transparent;
             this.calcButton0.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButton0.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButton0.DownBack = null;
-            this.calcButton0.Location = new System.Drawing.Point(130, 317);
             this.calcButton0.MouseBack = null;
             this.calcButton0.Name = "calcButton0";
             this.calcButton0.NormlBack = null;
-            this.calcButton0.Size = new System.Drawing.Size(55, 55);
-            this.calcButton0.TabIndex = 9;
-            this.calcButton0.Text = "0";
+            this.skinToolTip1.SetToolTip(this.calcButton0, resources.GetString("calcButton0.ToolTip"));
             this.calcButton0.UseVisualStyleBackColor = false;
             this.calcButton0.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButton3
             // 
+            resources.ApplyResources(this.calcButton3, "calcButton3");
             this.calcButton3.BackColor = System.Drawing.Color.Transparent;
             this.calcButton3.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButton3.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButton3.DownBack = null;
-            this.calcButton3.Location = new System.Drawing.Point(258, 251);
             this.calcButton3.MouseBack = null;
             this.calcButton3.Name = "calcButton3";
             this.calcButton3.NormlBack = null;
-            this.calcButton3.Size = new System.Drawing.Size(55, 55);
-            this.calcButton3.TabIndex = 8;
-            this.calcButton3.Text = "3";
+            this.skinToolTip1.SetToolTip(this.calcButton3, resources.GetString("calcButton3.ToolTip"));
             this.calcButton3.UseVisualStyleBackColor = false;
             this.calcButton3.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButton2
             // 
+            resources.ApplyResources(this.calcButton2, "calcButton2");
             this.calcButton2.BackColor = System.Drawing.Color.Transparent;
             this.calcButton2.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButton2.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButton2.DownBack = null;
-            this.calcButton2.Location = new System.Drawing.Point(194, 251);
             this.calcButton2.MouseBack = null;
             this.calcButton2.Name = "calcButton2";
             this.calcButton2.NormlBack = null;
-            this.calcButton2.Size = new System.Drawing.Size(55, 55);
-            this.calcButton2.TabIndex = 7;
-            this.calcButton2.Text = "2";
+            this.skinToolTip1.SetToolTip(this.calcButton2, resources.GetString("calcButton2.ToolTip"));
             this.calcButton2.UseVisualStyleBackColor = false;
             this.calcButton2.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButton1
             // 
+            resources.ApplyResources(this.calcButton1, "calcButton1");
             this.calcButton1.BackColor = System.Drawing.Color.Transparent;
             this.calcButton1.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButton1.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButton1.DownBack = null;
-            this.calcButton1.Location = new System.Drawing.Point(130, 251);
             this.calcButton1.MouseBack = null;
             this.calcButton1.Name = "calcButton1";
             this.calcButton1.NormlBack = null;
-            this.calcButton1.Size = new System.Drawing.Size(55, 55);
-            this.calcButton1.TabIndex = 6;
-            this.calcButton1.Text = "1";
+            this.skinToolTip1.SetToolTip(this.calcButton1, resources.GetString("calcButton1.ToolTip"));
             this.calcButton1.UseVisualStyleBackColor = false;
             this.calcButton1.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButton6
             // 
+            resources.ApplyResources(this.calcButton6, "calcButton6");
             this.calcButton6.BackColor = System.Drawing.Color.Transparent;
             this.calcButton6.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButton6.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButton6.DownBack = null;
-            this.calcButton6.Location = new System.Drawing.Point(258, 185);
             this.calcButton6.MouseBack = null;
             this.calcButton6.Name = "calcButton6";
             this.calcButton6.NormlBack = null;
-            this.calcButton6.Size = new System.Drawing.Size(55, 55);
-            this.calcButton6.TabIndex = 5;
-            this.calcButton6.Text = "6";
+            this.skinToolTip1.SetToolTip(this.calcButton6, resources.GetString("calcButton6.ToolTip"));
             this.calcButton6.UseVisualStyleBackColor = false;
             this.calcButton6.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButton5
             // 
+            resources.ApplyResources(this.calcButton5, "calcButton5");
             this.calcButton5.BackColor = System.Drawing.Color.Transparent;
             this.calcButton5.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButton5.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButton5.DownBack = null;
-            this.calcButton5.Location = new System.Drawing.Point(194, 185);
             this.calcButton5.MouseBack = null;
             this.calcButton5.Name = "calcButton5";
             this.calcButton5.NormlBack = null;
-            this.calcButton5.Size = new System.Drawing.Size(55, 55);
-            this.calcButton5.TabIndex = 4;
-            this.calcButton5.Text = "5";
+            this.skinToolTip1.SetToolTip(this.calcButton5, resources.GetString("calcButton5.ToolTip"));
             this.calcButton5.UseVisualStyleBackColor = false;
             this.calcButton5.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButton4
             // 
+            resources.ApplyResources(this.calcButton4, "calcButton4");
             this.calcButton4.BackColor = System.Drawing.Color.Transparent;
             this.calcButton4.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButton4.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButton4.DownBack = null;
-            this.calcButton4.Location = new System.Drawing.Point(130, 185);
             this.calcButton4.MouseBack = null;
             this.calcButton4.Name = "calcButton4";
             this.calcButton4.NormlBack = null;
-            this.calcButton4.Size = new System.Drawing.Size(55, 55);
-            this.calcButton4.TabIndex = 3;
-            this.calcButton4.Text = "4";
+            this.skinToolTip1.SetToolTip(this.calcButton4, resources.GetString("calcButton4.ToolTip"));
             this.calcButton4.UseVisualStyleBackColor = false;
             this.calcButton4.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButton9
             // 
+            resources.ApplyResources(this.calcButton9, "calcButton9");
             this.calcButton9.BackColor = System.Drawing.Color.Transparent;
             this.calcButton9.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButton9.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButton9.DownBack = null;
-            this.calcButton9.Location = new System.Drawing.Point(258, 119);
             this.calcButton9.MouseBack = null;
             this.calcButton9.Name = "calcButton9";
             this.calcButton9.NormlBack = null;
-            this.calcButton9.Size = new System.Drawing.Size(55, 55);
-            this.calcButton9.TabIndex = 2;
-            this.calcButton9.Text = "9";
+            this.skinToolTip1.SetToolTip(this.calcButton9, resources.GetString("calcButton9.ToolTip"));
             this.calcButton9.UseVisualStyleBackColor = false;
             this.calcButton9.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButton8
             // 
+            resources.ApplyResources(this.calcButton8, "calcButton8");
             this.calcButton8.BackColor = System.Drawing.Color.Transparent;
             this.calcButton8.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButton8.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButton8.DownBack = null;
-            this.calcButton8.Location = new System.Drawing.Point(194, 119);
             this.calcButton8.MouseBack = null;
             this.calcButton8.Name = "calcButton8";
             this.calcButton8.NormlBack = null;
-            this.calcButton8.Size = new System.Drawing.Size(55, 55);
-            this.calcButton8.TabIndex = 1;
-            this.calcButton8.Text = "8";
+            this.skinToolTip1.SetToolTip(this.calcButton8, resources.GetString("calcButton8.ToolTip"));
             this.calcButton8.UseVisualStyleBackColor = false;
             this.calcButton8.Click += new System.EventHandler(this.ButtonBindings);
             // 
             // calcButton7
             // 
+            resources.ApplyResources(this.calcButton7, "calcButton7");
             this.calcButton7.BackColor = System.Drawing.Color.Transparent;
             this.calcButton7.BaseColor = System.Drawing.SystemColors.Highlight;
             this.calcButton7.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.calcButton7.DownBack = null;
-            this.calcButton7.Location = new System.Drawing.Point(130, 119);
             this.calcButton7.MouseBack = null;
             this.calcButton7.Name = "calcButton7";
             this.calcButton7.NormlBack = null;
-            this.calcButton7.Size = new System.Drawing.Size(55, 55);
-            this.calcButton7.TabIndex = 0;
-            this.calcButton7.Text = "7";
+            this.skinToolTip1.SetToolTip(this.calcButton7, resources.GetString("calcButton7.ToolTip"));
             this.calcButton7.UseVisualStyleBackColor = false;
             this.calcButton7.Click += new System.EventHandler(this.ButtonBindings);
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.skinButton2);
-            this.panel1.Controls.Add(this.GenButton);
-            this.panel1.Controls.Add(this.ExeAnsTextBox);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(878, 398);
-            this.panel1.TabIndex = 16;
-            // 
-            // ExeAnsTextBox
-            // 
-            this.ExeAnsTextBox.BackColor = System.Drawing.Color.Transparent;
-            this.ExeAnsTextBox.Controls.Add(this.GenProgressIndicator);
-            this.ExeAnsTextBox.DownBack = null;
-            this.ExeAnsTextBox.Icon = null;
-            this.ExeAnsTextBox.IconIsButton = false;
-            this.ExeAnsTextBox.IconMouseState = CCWin.SkinClass.ControlState.Normal;
-            this.ExeAnsTextBox.IsPasswordChat = '\0';
-            this.ExeAnsTextBox.IsSystemPasswordChar = false;
-            this.ExeAnsTextBox.Lines = new string[0];
-            this.ExeAnsTextBox.Location = new System.Drawing.Point(0, 0);
-            this.ExeAnsTextBox.Margin = new System.Windows.Forms.Padding(0);
-            this.ExeAnsTextBox.MaxLength = 32767;
-            this.ExeAnsTextBox.MinimumSize = new System.Drawing.Size(28, 28);
-            this.ExeAnsTextBox.MouseBack = null;
-            this.ExeAnsTextBox.MouseState = CCWin.SkinClass.ControlState.Normal;
-            this.ExeAnsTextBox.Multiline = true;
-            this.ExeAnsTextBox.Name = "ExeAnsTextBox";
-            this.ExeAnsTextBox.NormlBack = null;
-            this.ExeAnsTextBox.Padding = new System.Windows.Forms.Padding(5);
-            this.ExeAnsTextBox.ReadOnly = true;
-            this.ExeAnsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ExeAnsTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.ExeAnsTextBox.Size = new System.Drawing.Size(878, 225);
-            // 
-            // 
-            // 
-            this.ExeAnsTextBox.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ExeAnsTextBox.SkinTxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ExeAnsTextBox.SkinTxt.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F);
-            this.ExeAnsTextBox.SkinTxt.Location = new System.Drawing.Point(5, 5);
-            this.ExeAnsTextBox.SkinTxt.Multiline = true;
-            this.ExeAnsTextBox.SkinTxt.Name = "BaseText";
-            this.ExeAnsTextBox.SkinTxt.ReadOnly = true;
-            this.ExeAnsTextBox.SkinTxt.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.ExeAnsTextBox.SkinTxt.Size = new System.Drawing.Size(868, 215);
-            this.ExeAnsTextBox.SkinTxt.TabIndex = 0;
-            this.ExeAnsTextBox.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.ExeAnsTextBox.SkinTxt.WaterText = "";
-            this.ExeAnsTextBox.TabIndex = 35;
-            this.ExeAnsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.ExeAnsTextBox.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.ExeAnsTextBox.WaterText = "";
-            this.ExeAnsTextBox.WordWrap = true;
-            // 
-            // GenProgressIndicator
-            // 
-            this.GenProgressIndicator.BackColor = System.Drawing.Color.Transparent;
-            this.GenProgressIndicator.CircleColor = System.Drawing.Color.LightSkyBlue;
-            this.GenProgressIndicator.Location = new System.Drawing.Point(346, 214);
-            this.GenProgressIndicator.Name = "GenProgressIndicator";
-            this.GenProgressIndicator.Percentage = 0F;
-            this.GenProgressIndicator.Size = new System.Drawing.Size(210, 210);
-            this.GenProgressIndicator.TabIndex = 15;
-            this.GenProgressIndicator.Text = "skinProgressIndicator1";
-            this.GenProgressIndicator.Visible = false;
-            // 
-            // GenButton
-            // 
-            this.GenButton.BackColor = System.Drawing.Color.Transparent;
-            this.GenButton.BaseColor = System.Drawing.Color.LightSkyBlue;
-            this.GenButton.ControlState = CCWin.SkinClass.ControlState.Hover;
-            this.GenButton.DownBack = null;
-            this.GenButton.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.GenButton.ForeColor = System.Drawing.Color.Teal;
-            this.GenButton.Location = new System.Drawing.Point(167, 287);
-            this.GenButton.MouseBack = null;
-            this.GenButton.Name = "GenButton";
-            this.GenButton.NormlBack = null;
-            this.GenButton.Size = new System.Drawing.Size(173, 62);
-            this.GenButton.TabIndex = 36;
-            this.GenButton.Text = "开始生成";
-            this.GenButton.UseVisualStyleBackColor = false;
-            // 
-            // skinButton2
-            // 
-            this.skinButton2.BackColor = System.Drawing.Color.Transparent;
-            this.skinButton2.BaseColor = System.Drawing.Color.LightSkyBlue;
-            this.skinButton2.ControlState = CCWin.SkinClass.ControlState.Hover;
-            this.skinButton2.DownBack = null;
-            this.skinButton2.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinButton2.ForeColor = System.Drawing.Color.Teal;
-            this.skinButton2.Location = new System.Drawing.Point(455, 287);
-            this.skinButton2.MouseBack = null;
-            this.skinButton2.Name = "skinButton2";
-            this.skinButton2.NormlBack = null;
-            this.skinButton2.Size = new System.Drawing.Size(173, 62);
-            this.skinButton2.TabIndex = 37;
-            this.skinButton2.Text = "停止生成";
-            this.skinButton2.UseVisualStyleBackColor = false;
-            // 
             // skinMenuStrip1
             // 
+            resources.ApplyResources(this.skinMenuStrip1, "skinMenuStrip1");
             this.skinMenuStrip1.Arrow = System.Drawing.Color.Black;
             this.skinMenuStrip1.Back = System.Drawing.Color.White;
             this.skinMenuStrip1.BackRadius = 4;
@@ -875,259 +836,220 @@ namespace WindowsFormsApplication2
             this.帮助ToolStripMenuItem,
             this.语言ToolStripMenuItem,
             this.关于ToolStripMenuItem});
-            this.skinMenuStrip1.Location = new System.Drawing.Point(4, 28);
             this.skinMenuStrip1.Name = "skinMenuStrip1";
             this.skinMenuStrip1.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.skinMenuStrip1.Size = new System.Drawing.Size(892, 28);
             this.skinMenuStrip1.SkinAllColor = true;
-            this.skinMenuStrip1.TabIndex = 1;
-            this.skinMenuStrip1.Text = "skinMenuStrip1";
             this.skinMenuStrip1.TitleAnamorphosis = true;
             this.skinMenuStrip1.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.skinMenuStrip1.TitleRadius = 4;
             this.skinMenuStrip1.TitleRadiusStyle = CCWin.SkinClass.RoundStyle.All;
+            this.skinToolTip1.SetToolTip(this.skinMenuStrip1, resources.GetString("skinMenuStrip1.ToolTip"));
             // 
             // 开始ToolStripMenuItem
             // 
+            resources.ApplyResources(this.开始ToolStripMenuItem, "开始ToolStripMenuItem");
             this.开始ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.更改路径ToolStripMenuItem,
             this.导入配置设置ToolStripMenuItem,
             this.设置配置ToolStripMenuItem});
             this.开始ToolStripMenuItem.Name = "开始ToolStripMenuItem";
-            this.开始ToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
-            this.开始ToolStripMenuItem.Text = "开始";
             // 
             // 更改路径ToolStripMenuItem
             // 
+            resources.ApplyResources(this.更改路径ToolStripMenuItem, "更改路径ToolStripMenuItem");
             this.更改路径ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.更改生成Gradetxt文件路径ToolStripMenuItem,
             this.更改生成Exercisetxt文件路径ToolStripMenuItem,
             this.更改生成Answertxt文件路径ToolStripMenuItem});
             this.更改路径ToolStripMenuItem.Name = "更改路径ToolStripMenuItem";
-            this.更改路径ToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
-            this.更改路径ToolStripMenuItem.Text = "更改路径";
             // 
             // 更改生成Gradetxt文件路径ToolStripMenuItem
             // 
+            resources.ApplyResources(this.更改生成Gradetxt文件路径ToolStripMenuItem, "更改生成Gradetxt文件路径ToolStripMenuItem");
             this.更改生成Gradetxt文件路径ToolStripMenuItem.Name = "更改生成Gradetxt文件路径ToolStripMenuItem";
-            this.更改生成Gradetxt文件路径ToolStripMenuItem.Size = new System.Drawing.Size(278, 26);
-            this.更改生成Gradetxt文件路径ToolStripMenuItem.Text = "更改生成Grade.txt文件路径";
             this.更改生成Gradetxt文件路径ToolStripMenuItem.Click += new System.EventHandler(this.更改Gradetxt生成路径ToolStripMenuItem_Click);
             // 
             // 更改生成Exercisetxt文件路径ToolStripMenuItem
             // 
+            resources.ApplyResources(this.更改生成Exercisetxt文件路径ToolStripMenuItem, "更改生成Exercisetxt文件路径ToolStripMenuItem");
             this.更改生成Exercisetxt文件路径ToolStripMenuItem.Name = "更改生成Exercisetxt文件路径ToolStripMenuItem";
-            this.更改生成Exercisetxt文件路径ToolStripMenuItem.Size = new System.Drawing.Size(278, 26);
-            this.更改生成Exercisetxt文件路径ToolStripMenuItem.Text = "更改生成Exercise.txt文件路径";
             this.更改生成Exercisetxt文件路径ToolStripMenuItem.Click += new System.EventHandler(this.更改Exercisetxt生成路径ToolStripMenuItem_Click);
             // 
             // 更改生成Answertxt文件路径ToolStripMenuItem
             // 
+            resources.ApplyResources(this.更改生成Answertxt文件路径ToolStripMenuItem, "更改生成Answertxt文件路径ToolStripMenuItem");
             this.更改生成Answertxt文件路径ToolStripMenuItem.Name = "更改生成Answertxt文件路径ToolStripMenuItem";
-            this.更改生成Answertxt文件路径ToolStripMenuItem.Size = new System.Drawing.Size(278, 26);
-            this.更改生成Answertxt文件路径ToolStripMenuItem.Text = "更改生成Answer.txt文件路径";
             this.更改生成Answertxt文件路径ToolStripMenuItem.Click += new System.EventHandler(this.更改Answertxt生成路径ToolStripMenuItem_Click);
             // 
             // 导入配置设置ToolStripMenuItem
             // 
+            resources.ApplyResources(this.导入配置设置ToolStripMenuItem, "导入配置设置ToolStripMenuItem");
             this.导入配置设置ToolStripMenuItem.Name = "导入配置设置ToolStripMenuItem";
-            this.导入配置设置ToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
-            this.导入配置设置ToolStripMenuItem.Text = "自动导入配置";
             this.导入配置设置ToolStripMenuItem.Click += new System.EventHandler(this.导入配置设置ToolStripMenuItem_Click);
             // 
             // 设置配置ToolStripMenuItem
             // 
+            resources.ApplyResources(this.设置配置ToolStripMenuItem, "设置配置ToolStripMenuItem");
             this.设置配置ToolStripMenuItem.Name = "设置配置ToolStripMenuItem";
-            this.设置配置ToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
-            this.设置配置ToolStripMenuItem.Text = "设置配置";
             this.设置配置ToolStripMenuItem.Click += new System.EventHandler(this.设置配置ToolStripMenuItem_Click);
             // 
             // 帮助ToolStripMenuItem
             // 
+            resources.ApplyResources(this.帮助ToolStripMenuItem, "帮助ToolStripMenuItem");
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
-            this.帮助ToolStripMenuItem.Text = "帮助";
             this.帮助ToolStripMenuItem.Click += new System.EventHandler(this.帮助ToolStripMenuItem_Click);
             // 
             // 语言ToolStripMenuItem
             // 
+            resources.ApplyResources(this.语言ToolStripMenuItem, "语言ToolStripMenuItem");
             this.语言ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.中文ToolStripMenuItem,
-            this.한국어ToolStripMenuItem});
+            this.englishToolStripMenuItem});
             this.语言ToolStripMenuItem.Name = "语言ToolStripMenuItem";
-            this.语言ToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
-            this.语言ToolStripMenuItem.Text = "语言";
             // 
             // 中文ToolStripMenuItem
             // 
+            resources.ApplyResources(this.中文ToolStripMenuItem, "中文ToolStripMenuItem");
             this.中文ToolStripMenuItem.Name = "中文ToolStripMenuItem";
-            this.中文ToolStripMenuItem.Size = new System.Drawing.Size(129, 26);
-            this.中文ToolStripMenuItem.Text = "中文";
+            this.中文ToolStripMenuItem.Click += new System.EventHandler(this.中文ToolStripMenuItem_Click);
             // 
-            // 한국어ToolStripMenuItem
+            // englishToolStripMenuItem
             // 
-            this.한국어ToolStripMenuItem.Name = "한국어ToolStripMenuItem";
-            this.한국어ToolStripMenuItem.Size = new System.Drawing.Size(129, 26);
-            this.한국어ToolStripMenuItem.Text = "한국어";
+            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // 关于ToolStripMenuItem
             // 
+            resources.ApplyResources(this.关于ToolStripMenuItem, "关于ToolStripMenuItem");
             this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
-            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
-            this.关于ToolStripMenuItem.Text = "关于";
             this.关于ToolStripMenuItem.Click += new System.EventHandler(this.关于ToolStripMenuItem_Click);
             // 
-            // panel2
+            // GradeFolderDialog
             // 
-            this.panel2.Controls.Add(this.skinLabel2);
-            this.panel2.Controls.Add(this.skinButton4);
-            this.panel2.Controls.Add(this.skinButton3);
-            this.panel2.Controls.Add(this.skinPictureBox1);
-            this.panel2.Controls.Add(this.skinTextBox1);
-            this.panel2.Controls.Add(this.skinLabel1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(878, 398);
-            this.panel2.TabIndex = 38;
+            resources.ApplyResources(this.GradeFolderDialog, "GradeFolderDialog");
             // 
-            // skinLabel1
+            // GenProgressIndicator
             // 
-            this.skinLabel1.AutoSize = true;
-            this.skinLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.skinLabel1.BorderColor = System.Drawing.Color.White;
-            this.skinLabel1.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinLabel1.Location = new System.Drawing.Point(203, 112);
-            this.skinLabel1.Name = "skinLabel1";
-            this.skinLabel1.Size = new System.Drawing.Size(108, 25);
-            this.skinLabel1.TabIndex = 1;
-            this.skinLabel1.Text = "skinLabel1";
+            resources.ApplyResources(this.GenProgressIndicator, "GenProgressIndicator");
+            this.GenProgressIndicator.BackColor = System.Drawing.Color.Transparent;
+            this.GenProgressIndicator.CircleColor = System.Drawing.Color.LightSkyBlue;
+            this.GenProgressIndicator.Name = "GenProgressIndicator";
+            this.GenProgressIndicator.Percentage = 0F;
+            this.skinToolTip1.SetToolTip(this.GenProgressIndicator, resources.GetString("GenProgressIndicator.ToolTip"));
             // 
-            // skinTextBox1
+            // ExeAnsTextBox
             // 
-            this.skinTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.skinTextBox1.DownBack = null;
-            this.skinTextBox1.Icon = null;
-            this.skinTextBox1.IconIsButton = false;
-            this.skinTextBox1.IconMouseState = CCWin.SkinClass.ControlState.Normal;
-            this.skinTextBox1.IsPasswordChat = '\0';
-            this.skinTextBox1.IsSystemPasswordChar = false;
-            this.skinTextBox1.Lines = new string[] {
-        "skinTextBox1"};
-            this.skinTextBox1.Location = new System.Drawing.Point(380, 108);
-            this.skinTextBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.skinTextBox1.MaxLength = 32767;
-            this.skinTextBox1.MinimumSize = new System.Drawing.Size(28, 28);
-            this.skinTextBox1.MouseBack = null;
-            this.skinTextBox1.MouseState = CCWin.SkinClass.ControlState.Normal;
-            this.skinTextBox1.Multiline = true;
-            this.skinTextBox1.Name = "skinTextBox1";
-            this.skinTextBox1.NormlBack = null;
-            this.skinTextBox1.Padding = new System.Windows.Forms.Padding(5);
-            this.skinTextBox1.ReadOnly = false;
-            this.skinTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.skinTextBox1.Size = new System.Drawing.Size(176, 35);
+            resources.ApplyResources(this.ExeAnsTextBox, "ExeAnsTextBox");
+            this.ExeAnsTextBox.BackColor = System.Drawing.Color.Transparent;
+            this.ExeAnsTextBox.Controls.Add(this.GenProgressIndicator);
+            this.ExeAnsTextBox.DownBack = null;
+            this.ExeAnsTextBox.Icon = null;
+            this.ExeAnsTextBox.IconIsButton = false;
+            this.ExeAnsTextBox.IconMouseState = CCWin.SkinClass.ControlState.Normal;
+            this.ExeAnsTextBox.IsPasswordChat = '\0';
+            this.ExeAnsTextBox.IsSystemPasswordChar = false;
+            this.ExeAnsTextBox.Lines = new string[0];
+            this.ExeAnsTextBox.MaxLength = 32767;
+            this.ExeAnsTextBox.MouseBack = null;
+            this.ExeAnsTextBox.MouseState = CCWin.SkinClass.ControlState.Normal;
+            this.ExeAnsTextBox.Multiline = true;
+            this.ExeAnsTextBox.Name = "ExeAnsTextBox";
+            this.ExeAnsTextBox.NormlBack = null;
+            this.ExeAnsTextBox.ReadOnly = true;
+            this.ExeAnsTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             // 
             // 
             // 
-            this.skinTextBox1.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.skinTextBox1.SkinTxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.skinTextBox1.SkinTxt.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F);
-            this.skinTextBox1.SkinTxt.Location = new System.Drawing.Point(5, 5);
-            this.skinTextBox1.SkinTxt.Multiline = true;
-            this.skinTextBox1.SkinTxt.Name = "BaseText";
-            this.skinTextBox1.SkinTxt.Size = new System.Drawing.Size(166, 25);
-            this.skinTextBox1.SkinTxt.TabIndex = 0;
-            this.skinTextBox1.SkinTxt.Text = "skinTextBox1";
-            this.skinTextBox1.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.skinTextBox1.SkinTxt.WaterText = "";
-            this.skinTextBox1.TabIndex = 2;
-            this.skinTextBox1.Text = "skinTextBox1";
-            this.skinTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.skinTextBox1.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.skinTextBox1.WaterText = "";
-            this.skinTextBox1.WordWrap = true;
+            this.ExeAnsTextBox.SkinTxt.AccessibleDescription = resources.GetString("ExeAnsTextBox.SkinTxt.AccessibleDescription");
+            this.ExeAnsTextBox.SkinTxt.AccessibleName = resources.GetString("ExeAnsTextBox.SkinTxt.AccessibleName");
+            this.ExeAnsTextBox.SkinTxt.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("ExeAnsTextBox.SkinTxt.Anchor")));
+            this.ExeAnsTextBox.SkinTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ExeAnsTextBox.SkinTxt.BackgroundImage")));
+            this.ExeAnsTextBox.SkinTxt.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("ExeAnsTextBox.SkinTxt.BackgroundImageLayout")));
+            this.ExeAnsTextBox.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ExeAnsTextBox.SkinTxt.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("ExeAnsTextBox.SkinTxt.Dock")));
+            this.ExeAnsTextBox.SkinTxt.Font = ((System.Drawing.Font)(resources.GetObject("ExeAnsTextBox.SkinTxt.Font")));
+            this.ExeAnsTextBox.SkinTxt.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("ExeAnsTextBox.SkinTxt.ImeMode")));
+            this.ExeAnsTextBox.SkinTxt.Location = ((System.Drawing.Point)(resources.GetObject("ExeAnsTextBox.SkinTxt.Location")));
+            this.ExeAnsTextBox.SkinTxt.MaximumSize = ((System.Drawing.Size)(resources.GetObject("ExeAnsTextBox.SkinTxt.MaximumSize")));
+            this.ExeAnsTextBox.SkinTxt.MaxLength = ((int)(resources.GetObject("ExeAnsTextBox.SkinTxt.MaxLength")));
+            this.ExeAnsTextBox.SkinTxt.Multiline = ((bool)(resources.GetObject("ExeAnsTextBox.SkinTxt.Multiline")));
+            this.ExeAnsTextBox.SkinTxt.Name = "BaseText";
+            this.ExeAnsTextBox.SkinTxt.PasswordChar = ((char)(resources.GetObject("ExeAnsTextBox.SkinTxt.PasswordChar")));
+            this.ExeAnsTextBox.SkinTxt.ReadOnly = true;
+            this.ExeAnsTextBox.SkinTxt.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("ExeAnsTextBox.SkinTxt.RightToLeft")));
+            this.ExeAnsTextBox.SkinTxt.ScrollBars = ((System.Windows.Forms.ScrollBars)(resources.GetObject("ExeAnsTextBox.SkinTxt.ScrollBars")));
+            this.ExeAnsTextBox.SkinTxt.Size = ((System.Drawing.Size)(resources.GetObject("ExeAnsTextBox.SkinTxt.Size")));
+            this.ExeAnsTextBox.SkinTxt.TabIndex = ((int)(resources.GetObject("ExeAnsTextBox.SkinTxt.TabIndex")));
+            this.ExeAnsTextBox.SkinTxt.TextAlign = ((System.Windows.Forms.HorizontalAlignment)(resources.GetObject("ExeAnsTextBox.SkinTxt.TextAlign")));
+            this.ExeAnsTextBox.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.ExeAnsTextBox.SkinTxt.WaterText = "";
+            this.ExeAnsTextBox.SkinTxt.WordWrap = ((bool)(resources.GetObject("ExeAnsTextBox.SkinTxt.WordWrap")));
+            this.ExeAnsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.skinToolTip1.SetToolTip(this.ExeAnsTextBox, resources.GetString("ExeAnsTextBox.ToolTip"));
+            this.ExeAnsTextBox.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.ExeAnsTextBox.WaterText = "";
+            this.ExeAnsTextBox.WordWrap = true;
             // 
-            // skinPictureBox1
+            // GenButton
             // 
-            this.skinPictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.skinPictureBox1.Location = new System.Drawing.Point(237, 179);
-            this.skinPictureBox1.Name = "skinPictureBox1";
-            this.skinPictureBox1.Size = new System.Drawing.Size(155, 85);
-            this.skinPictureBox1.TabIndex = 4;
-            this.skinPictureBox1.TabStop = false;
+            resources.ApplyResources(this.GenButton, "GenButton");
+            this.GenButton.BackColor = System.Drawing.Color.Transparent;
+            this.GenButton.BaseColor = System.Drawing.Color.LightSkyBlue;
+            this.GenButton.ControlState = CCWin.SkinClass.ControlState.Hover;
+            this.GenButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GenButton.DownBack = null;
+            this.GenButton.ForeColor = System.Drawing.Color.Teal;
+            this.GenButton.MouseBack = null;
+            this.GenButton.Name = "GenButton";
+            this.GenButton.NormlBack = null;
+            this.skinToolTip1.SetToolTip(this.GenButton, resources.GetString("GenButton.ToolTip"));
+            this.GenButton.UseVisualStyleBackColor = false;
+            this.GenButton.Click += new System.EventHandler(this.GenButton_Click);
             // 
-            // skinButton3
+            // abortButton
             // 
-            this.skinButton3.BackColor = System.Drawing.Color.Transparent;
-            this.skinButton3.ControlState = CCWin.SkinClass.ControlState.Normal;
-            this.skinButton3.DownBack = null;
-            this.skinButton3.Location = new System.Drawing.Point(588, 108);
-            this.skinButton3.MouseBack = null;
-            this.skinButton3.Name = "skinButton3";
-            this.skinButton3.NormlBack = null;
-            this.skinButton3.Size = new System.Drawing.Size(85, 35);
-            this.skinButton3.TabIndex = 6;
-            this.skinButton3.Text = "Answer";
-            this.skinButton3.UseVisualStyleBackColor = false;
-            // 
-            // skinButton4
-            // 
-            this.skinButton4.BackColor = System.Drawing.Color.Transparent;
-            this.skinButton4.ControlState = CCWin.SkinClass.ControlState.Normal;
-            this.skinButton4.DownBack = null;
-            this.skinButton4.Location = new System.Drawing.Point(346, 299);
-            this.skinButton4.MouseBack = null;
-            this.skinButton4.Name = "skinButton4";
-            this.skinButton4.NormlBack = null;
-            this.skinButton4.Size = new System.Drawing.Size(141, 38);
-            this.skinButton4.TabIndex = 7;
-            this.skinButton4.Text = "Next";
-            this.skinButton4.UseVisualStyleBackColor = false;
-            // 
-            // skinLabel2
-            // 
-            this.skinLabel2.AutoSize = true;
-            this.skinLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.skinLabel2.BorderColor = System.Drawing.Color.White;
-            this.skinLabel2.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinLabel2.Location = new System.Drawing.Point(460, 200);
-            this.skinLabel2.Name = "skinLabel2";
-            this.skinLabel2.Size = new System.Drawing.Size(108, 25);
-            this.skinLabel2.TabIndex = 9;
-            this.skinLabel2.Text = "skinLabel2";
+            resources.ApplyResources(this.abortButton, "abortButton");
+            this.abortButton.BackColor = System.Drawing.Color.Transparent;
+            this.abortButton.BaseColor = System.Drawing.Color.LightSkyBlue;
+            this.abortButton.ControlState = CCWin.SkinClass.ControlState.Hover;
+            this.abortButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.abortButton.DownBack = null;
+            this.abortButton.ForeColor = System.Drawing.Color.Teal;
+            this.abortButton.MouseBack = null;
+            this.abortButton.Name = "abortButton";
+            this.abortButton.NormlBack = null;
+            this.skinToolTip1.SetToolTip(this.abortButton, resources.GetString("abortButton.ToolTip"));
+            this.abortButton.UseVisualStyleBackColor = false;
+            this.abortButton.Click += new System.EventHandler(this.abortButton_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(900, 500);
             this.Controls.Add(this.skinMenuStrip1);
             this.Controls.Add(this.PageSet);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MainMenuStrip = this.skinMenuStrip1;
-            this.MaximumSize = new System.Drawing.Size(900, 500);
-            this.MinimumSize = new System.Drawing.Size(900, 500);
             this.Name = "MainForm";
-            this.Text = "四则运算测验器";
+            this.skinToolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.tabPageCheck.ResumeLayout(false);
             this.tabPageCheck.PerformLayout();
             this.tabPageGen.ResumeLayout(false);
             this.GenPage.ResumeLayout(false);
+            this.PanelGen.ResumeLayout(false);
+            this.PanelRandom.ResumeLayout(false);
+            this.PanelRandom.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.skinPictureBox1)).EndInit();
             this.PageSet.ResumeLayout(false);
             this.tabPageCalc.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.ExeAnsTextBox.ResumeLayout(false);
-            this.ExeAnsTextBox.PerformLayout();
             this.skinMenuStrip1.ResumeLayout(false);
             this.skinMenuStrip1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.skinPictureBox1)).EndInit();
+            this.ExeAnsTextBox.ResumeLayout(false);
+            this.ExeAnsTextBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1184,19 +1106,19 @@ namespace WindowsFormsApplication2
         private ToolStripMenuItem 设置配置ToolStripMenuItem;
         private ToolStripMenuItem 语言ToolStripMenuItem;
         private ToolStripMenuItem 中文ToolStripMenuItem;
-        private ToolStripMenuItem 한국어ToolStripMenuItem;
-        private Panel panel1;
-        private CCWin.SkinControl.SkinButton skinButton2;
-        private CCWin.SkinControl.SkinButton GenButton;
-        private CCWin.SkinControl.SkinTextBox ExeAnsTextBox;
-        private CCWin.SkinControl.SkinProgressIndicator GenProgressIndicator;
-        private Panel panel2;
+        private Panel PanelGen;
+        private Panel PanelRandom;
         private CCWin.SkinControl.SkinLabel skinLabel2;
         private CCWin.SkinControl.SkinButton skinButton4;
         private CCWin.SkinControl.SkinButton skinButton3;
         private CCWin.SkinControl.SkinPictureBox skinPictureBox1;
         private CCWin.SkinControl.SkinTextBox skinTextBox1;
         private CCWin.SkinControl.SkinLabel skinLabel1;
+        private ToolStripMenuItem englishToolStripMenuItem;
+        private CCWin.SkinControl.SkinTextBox ExeAnsTextBox;
+        private CCWin.SkinControl.SkinProgressIndicator GenProgressIndicator;
+        private CCWin.SkinControl.SkinButton GenButton;
+        private CCWin.SkinControl.SkinButton abortButton;
     }
    
 }
