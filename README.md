@@ -1,2 +1,2 @@
 # FourOperation
-BUAA software engineer course's twining project.
+BUAA software engineer course's pari project.
